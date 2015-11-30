@@ -1,0 +1,114 @@
+<div class="margin-top"></div>
+<div class="container">
+    <!-- Portfolio Item Heading -->
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="page-header darkgray">신청한 클래스 <small>my page</small></h2>
+        </div>
+    </div>
+    <!-- /.row -->
+<br/><br/>
+     <section>
+    <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-3 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-3 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+             <div class="col-md-3 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+             <div class="col-md-3 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.row -->
+    <!-- Portfolio Item Heading -->
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="page-header darkgray">내정보 수정하기 <small>my page</small></h2>
+        </div>
+    </div>
+    
+    <%= bootstrap_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+   
+    <!-- /.row -->
+    <br/><br/>
+    <!-- Modify Form -->
+        <div class="container">
+            <label class="col-sm-4 control-label-right"></label>
+            <div class="col-sm-4">
+                <h2><%= current_user.email%></h2>
+                <p>email은 수정 할 수 없습니다.</p>
+            </div>
+        </div>
+        <br/>
+    
+        <div class="container">
+            <label class="col-sm-4 control-label-right"></label>
+            <div class="col-sm-4">
+                <%= f.text_field :name, autofocus: true, label: "이름" %>
+                
+            </div>
+        </div>
+        <br/>
+        <div class="container">
+            <label class="col-sm-4 control-label-right"></label>
+            <div class="col-sm-4">
+                <%= f.text_field :mobile, autofocus: true, label: "전화번호" %>
+                
+            </div>
+        </div>
+        <br/>
+        
+        <div class="container">
+            <label class="col-sm-4 control-label-right"></label>
+            <div class="col-sm-4">
+               <%= f.password_field :password, autocomplete: "off", label: "변경 비밀번호" %>
+               <%= f.password_field :password_confirmation, autocomplete: "off", label: "변경 비밀번호 확인" %>
+               <%= f.password_field :current_password, autocomplete: "off", label: "현재 비밀번호 확인" %>
+            </div>
+        </div>
+        <br/>
+        
+
+               
+         <div align="center">
+                <button type="submit"class="btn btn-default">변경</button>
+                <a href="<%registration_path(resource_name)%>" class="btn btn-default" data-confirm="정말 탈퇴 하시겠습니까?">탈퇴</a>
+             </div>
+          <% end %>    
+
+
+
+
+
+

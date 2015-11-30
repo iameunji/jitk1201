@@ -1,0 +1,62 @@
+<div class="margin-top"></div>
+<div class="container">
+    <!-- Portfolio Item Heading -->
+    <div class="row">
+        <div class="col-sm-12">
+          <h2 class="page-header darkgray">로그인 <small>정 in the Kitchen</small></h2>
+        </div>
+    </div>
+    <!-- /.row -->
+<br/><br/>
+
+  <!-- Login Form -->
+<%= bootstrap_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+
+
+    <div class="container"> 
+    <div class="field">
+        <label class="col-sm-4 control-label-right"></label>
+        <div class="col-sm-4">
+            <%= f.email_field :email, autofocus: true, label: "이메일", class: "form-control" %>
+        </div>
+    </div>
+    </div>
+    <br/>
+    <div class="container">   
+        <label class="col-sm-4 control-label-right"></label>
+        <div class="col-sm-4">
+            <%= f.password_field :password, autocomplete: "off", label: "비밀번호"%>
+        </div>
+    </div>
+    <br/>
+
+  <div class="container"> 
+    <label class="col-sm-4 control-label-right"></label>
+      <div class="col-sm-4 control-label-center">
+        <% if devise_mapping.rememberable? -%>
+          <div class="field">
+            <%= f.check_box :remember_me, label: "자동 로그인" %>
+            <% end -%>
+          </div>
+          <div>
+          <button type="submit" class="btn btn-default">로그인</button><br>
+          </div>
+      </div>
+        <% end -%>
+  </div>
+  <div class="container">   
+        <div style="text-align: center">
+          <%= render "devise/shared/links" %>
+        </div>
+    </div>
+</div>
+
+
+
+  
+
+
+
+
+
+

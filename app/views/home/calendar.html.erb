@@ -1,0 +1,46 @@
+<div class="margin-top"></div>
+<div class="container">
+    <!-- Portfolio Item Heading -->
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="page-header darkgray">CALENDER <small>정 in the Kitchen</small></h2>
+        </div>
+    </div>
+    <div id="calendar"></div>
+</div>
+
+<script type="text/javascript">
+	
+	$(document).ready(function() {
+
+	    // page is now ready, initialize the calendar...
+
+	    $('#calendar').fullCalendar({
+	        // put your options and callbacks here
+
+	        header: {
+		        left: 'prev,next',
+		        center: 'title',
+		        right: 'today'
+		    },
+
+		    events: [
+
+		    	<% @posts.each do |p|  %>
+		    		<% p.date.each do |d|%>
+		        {
+		            title  : '<%= p.title %>',
+		            start  : '<%= d %>',
+		            url : '/classes/<%= p.class_state %>/posts/<%= p.id %>',
+		            allDay : true
+		        },
+		        	<% end %>
+		        <% end %>
+		    ]
+	    })
+
+	});
+
+	$('#test').multiDatesPicker();
+
+</script>

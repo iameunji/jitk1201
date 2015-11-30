@@ -1,0 +1,175 @@
+<div class="margin-top"></div><!--nav margin-->
+<div class="container">
+    <!--intro-->
+    <div class="row"><br/>
+        <div class="col-sm-12">
+            <% if params[:class_id].to_i == 1 %>
+                <h3 class="darkgray">성인 정규 클래스<br><small><%= @admin.class_1 %></small></h3>
+            <% elsif params[:class_id].to_i==2 %>
+                 <h3 class="darkgray">성인 원데이 클래스<br><small><%= @admin.class_2 %></small></h3>
+            <% elsif params[:class_id].to_i==3 %>
+                <h3 class="darkgray">요리책방 꼬르륵<br><small><%= @admin.class_3 %></small></h3>
+            <% elsif params[:class_id].to_i==4 %>
+                <h3 class="darkgray">주니어 클래스<br><small><%= @admin.class_4 %></small></h3>
+            <% elsif params[:class_id].to_i==5 %>
+                <h3 class="darkgray">PRIVATE CLASS<br><small><%= @admin.class_5 %></small></h3>
+            <% elsif params[:class_id].to_i==6 %>
+
+            <% end %>
+        </div>
+    </div>
+    <!-- /.intro -->
+    <br/>
+
+    <div class="row">
+        <div class="col-sm-12">            
+            <% if params[:class_id].to_i==1 %>
+                <h4 class="page-header darkgray">*현재 클래스<small>성인 정규 클래스</small></h4>
+            <% elsif params[:class_id].to_i==2 %>
+                <h4 class="page-header darkgray">*현재 클래스<small>성인 원데이 클래스</small></h4>
+            <% elsif params[:class_id].to_i==3 %>
+                <h4 class="page-header darkgray">*현재 클래스<small>요리책방 꼬르륵</small></h4>
+            <% elsif params[:class_id].to_i==4 %>
+                <h4 class="page-header darkgray">*현재 클래스<small>주니어 클래스</small></h4>
+            <% elsif params[:class_id].to_i==5 %>
+                <h4 class="page-header darkgray">*현재 클래스<small>PRIVATE CLASS</small></h4>
+            <% elsif params[:class_id].to_i==6 %>
+                <h2 class="page-header darkgray">정 In The Garden<small>정 in the Kitchen</small></h2>
+            <% end %>
+        </div>
+    </div>
+
+    <!--for admin-->
+    <% unless current_user.nil? %>
+        <% if current_user.admin == true %>
+            <div class="control-label-right">
+                <% if params[:class_id].to_i == 6%>
+                    <a class="btn btn-default" href="/articles/new">정 in the Garden 글쓰기</a>
+                <% else %>
+                    <a class="btn btn-default" href="/articles/new">클래스 글쓰기</a>
+                <% end %>
+                <p>현재 클래스 대표사진 권장 사이즈는 640px*400px 입니다</p>
+            </div>
+        <% end %>
+    <% end %>
+    <br/>
+    <!--/.for admin-->
+
+    <!-- current class -->
+
+    <div class="row">
+    <% unless @posts.where(:class_state => params[:class_id]).nil? %>
+    <% p = @posts.where(:class_state => params[:class_id]).first %>
+        <!--current class image-->
+        <section>
+            <div class="col-sm-7 portfolio-item">
+                <%= link_to "/classes/#{p.class_state}/posts/#{p.id}" do %>
+                    <%= image_tag "class1.jpg", :width => "100%", :height => "400px", :class =>"img-hover"%>
+                <% end %>
+            </div>
+        </section>
+        <!--/.current class image-->
+        <!--current class wording-->      
+        <section>
+            <div class="col-sm-5 portfolio-item">
+                <h3><%= p.title %></h3>
+                <h4><%= p.short %></h4>
+                <br/>
+                <div>
+                    <a class="btn btn-sm btn-default" href="/classes/<%= p.class_state %>/posts/<%= p.id %>">자세히 보기</a><br/>
+                </div>
+                <div class="control-label-right">
+                    <a class="btn btn-red-2" href="/classes/apply">신청하기</a>
+                </div>
+                <!--for admin-->
+                <div class="btn-group control-label-right" role="group">
+                    <a class="btn btn-default">수정하기</a>
+                    <a class="btn btn-default">삭제하기</a>
+                </div>
+                <!--/.for admin-->
+            </div>
+        <% end %>
+        </section>
+
+        <!--/.current class wording-->
+    </div>
+    <!--/.current class-->
+    <br/>
+
+    <!--last class-->
+    <section>
+        <div>
+            <h4 class="darkgray">*지난 클래스 더보기</h4>
+            <hr/>
+        </div>
+        <!--for admin-->
+        <div class="control-label-right">
+            <a href="/articles/new" class="btn btn-default">클래스 글쓰기</a><br/>
+            <p>지난 클래스 대표사진 권장 사이즈는 360px*250px 입니다</p>
+        </div>
+        <br/>
+        <!--/.for admin-->
+        <!--Content BOX-->
+        <div class="row">
+            <% cnt=0 %>
+            <% @posts.where(:class_state => params[:class_id]).each do |p| %>
+            <!--content1-->
+                <% if cnt!=0 %>
+                    <div class="col-md-4 portfolio-item">
+                        <%= link_to "/classes/#{p.class_state}/posts/#{p.id}" do %>
+                            <%= image_tag "class1.jpg", :width => "100%", :height =>"250px", :class =>"img-hover"%>
+                        <% end %>
+                        <h3>
+                            <a href="/classes/<%= p.class_state %>/posts/<%= p.id %>"><%= p.title%></a>
+                        </h3>
+                        <p><% p.short %></p>
+                        <div>
+                            <a class="btn btn-sm btn-default" href="/classes/<%= p.class_state %>/posts/<%= p.id %>">자세히 보기</a><br/>
+                        </div>
+                        <!--for admin-->
+                        <div class="btn-group" role="group">
+                            <a class="btn btn-default">수정하기</a>
+                            <a class="btn btn-default">삭제하기</a>
+                        </div>
+                        <!--/.for admin-->
+                    </div>
+                    <!--/.content1-->
+                <% end %>
+                <% cnt=1 %>
+            <% end %>
+        </div>
+        <!-- /.Content BOX -->
+    </section>
+    <!--/.last class-->
+
+    <section>
+    <!-- page  -->
+        <div class="container">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 control-label-center">
+                <nav class="margin-top-40">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <!--/.container-->
+    </section>
+</div>
+<!--/.container-->

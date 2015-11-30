@@ -1,0 +1,175 @@
+<div class="margin-top"></div><!--nav margin-->
+<div class="container">
+    <!--main video-->
+            <div class="embed-responsive embed-responsive-16by9">
+                <%=video_tag "main.mp4",:id => "myvid", :width => "100%", :height =>"100%", :controls => false, :autoplay => true, :loop => true, :muted => true %>
+                    <div class="row home-search-wrap">
+                        <div class="col-sm-4"></div>
+                        <div class=" col-sm-4 control-label-center">
+                        <h3><a href="/jung/class2" style="color:white">원데이 클래스가 등록되었습니다.</a><h3><br/>
+                        <!--원데이 클래스 등록시에만 보여줘야 합니다-->
+                            <span class="input-group-btn">
+                                <a class="btn btn-lg btn-home" href="#">클래스 신청하기</a>
+                                <!--메인 동영상 관리 페이지에서 드롭다운으로 카테고리 선택하면 링크 바뀌게 해야합니다-->
+                            </span>
+                        </div>
+                        <div class="col-sm-4"></div>
+                    </div>
+            </div>
+            <!--/.embed-responsive embed-responsive-16by9-->
+    <!--/.main video-->
+    <br/>
+
+ 
+    <!--last class list-->
+    <section>
+        <div>
+            <h4 class="darkgray"><small>*지난 클래스 더보기</small></h4>
+        </div>
+        <!--for admin-->
+        <div class="control-label-right">
+            <a href="/articles/new" class="btn btn-default">클래스 글쓰기</a><br/>
+            <p>지난 클래스 대표사진 권장 사이즈는 360px*250px 입니다</p>
+        </div>
+        <br/>
+        <!--/.for admin-->
+            <!--Content BOX-->
+            <div class="row">
+                <!--content1-->
+                <div class="col-md-4 portfolio-item">
+                    <%= link_to '/jung/classplusold' do %>
+                      <%= image_tag "class1.jpg", :width => "100%", :height =>"250px", :class =>"img-hover"%>
+                    <% end %>
+                    <h3>
+                        <a href="/jung/class1">지난 클래스1</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <div>
+                            <a class="btn btn-sm btn-default" href="#">자세히 보기</a><br/>
+                        </div>
+                        <!--for admin-->
+                        <div class="btn-group" role="group">
+                            <a class="btn btn-default">수정하기</a>
+                            <a class="btn btn-default">삭제하기</a>
+                        </div>
+                        <!--/.for admin-->
+                </div>
+                <!--/.content1-->
+                <!--content2-->
+                <div class="col-md-4 portfolio-item">
+                    <%= link_to '/jung/class2' do %>
+                        <%= image_tag "class2.jpg", :width => "100%", :height =>"250px", :class =>"img-hover"%>
+                    <% end %>
+                    <h3>
+                        <a href="/jung/class2">지난 클래스2</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <div>
+                            <a class="btn btn-sm btn-default" href="#">자세히 보기</a><br/>
+                        </div>
+                        <!--for admin-->
+                        <div class="btn-group" role="group">
+                            <a class="btn btn-default">수정하기</a>
+                            <a class="btn btn-default">삭제하기</a>
+                        </div>
+                        <!--/.for admin-->
+                </div>
+                <!--/.content2-->
+                <!--content3-->
+                <div class="col-md-4 portfolio-item">
+                    <%= link_to '/jung/classplusold' do %>
+                        <%= image_tag "class3.jpg", :width => "100%", :height =>"250px", :class =>"img-hover"%>
+                    <% end %>
+                    <h3>
+                        <a href="/jung/class3">지난 클래스3</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <div>
+                            <a class="btn btn-sm btn-default" href="#">자세히 보기</a><br/>
+                        </div>
+                        <!--for admin-->
+                        <div class="btn-group" role="group">
+                            <a class="btn btn-default">수정하기</a>
+                            <a class="btn btn-default">삭제하기</a>
+                        </div>
+                        <!--/.for admin-->
+                 </div>
+                 <!--/.content3-->
+            </div>
+            <!-- /.Content BOX -->
+    </section>
+</div>
+<!--/.container-->
+
+
+
+<script>
+
+
+    scaleVideoContainer();
+
+    initBannerVideoSize('.video-container .poster img');
+    initBannerVideoSize('.video-container .filter');
+    initBannerVideoSize('.video-container video');
+
+    $(window).on('resize', function() {
+        scaleVideoContainer();
+        scaleBannerVideoSize('.video-container .poster img');
+        scaleBannerVideoSize('.video-container .filter');
+        scaleBannerVideoSize('.video-container video');
+    });
+
+    
+
+
+
+function scaleVideoContainer() {
+
+    var height = $(window).height() + 5;
+    var unitHeight = parseInt(height) + 'px';
+    $('.homepage-hero-module').css('height',unitHeight);
+
+}
+
+function initBannerVideoSize(element){
+
+    $(element).each(function(){
+        $(this).data('height', $(this).height());
+        $(this).data('width', $(this).width());
+    });
+
+    scaleBannerVideoSize(element);
+
+}
+
+function scaleBannerVideoSize(element){
+
+    var windowWidth = $(window).width(),
+    windowHeight = $(window).height() + 5,
+    videoWidth,
+    videoHeight;
+
+    console.log(windowHeight);
+
+    $(element).each(function(){
+        var videoAspectRatio = $(this).data('height')/$(this).data('width');
+
+        $(this).width(windowWidth);
+
+        if(windowWidth < 1000){
+            videoHeight = windowHeight;
+            videoWidth = videoHeight / videoAspectRatio;
+            $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
+
+            $(this).width(videoWidth).height(videoHeight);
+        }
+
+        $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
+
+    });
+}
+
+
+
+
+</script>

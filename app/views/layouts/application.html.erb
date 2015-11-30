@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>정 in the Kitchen</title>
+
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body style="overflow-x:hidden; overflow-y:auto;">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" 
+data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="/">
+            <h3 style="margin-top : 5px">정 In The Kitchen</h3>
+          </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/classes">NOTICE</a></li><!--주소 능엄 마음대로 고시칩시오 일단 저기다 해놓았습니다-->
+          <li><a href="/home/intro">INTRO</a></li>
+          <li><a href="/home/calendar">CALENDER</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CLASS <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/classes/1/posts">성인 정규 클래스</a></li>
+              <% if Admin.first.oneday == true %>
+                <li><a href="/classes/2/posts">성인 원데이 클래스</a></li><!--관리자가 노출 설정 가능하게-->
+              <% end %>
+              <li role="separator" class="divider"></li>
+              <li><a href="/classes/3/posts">요리책방 꼬르륵</a></li>
+              <li><a href="/classes/4/posts">주니어 클래스</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="/classes/5/posts">PRIVATE CLASS</a></li>
+            </ul> 
+          </li>
+          <li><a href="/classes/6/posts">정 In The Garden</a></li>
+
+          <% if current_user.nil? %>
+            <li><%= link_to '로그인', new_user_session_path %></li>
+          <% else %>
+            <li><a href="/users/edit"><%= current_user.name %></a></li>
+            <li><%= link_to '로그아웃', destroy_user_session_path, method: :delete %></li>
+          <% end %>
+
+          <li><a href="/admin">관리자</a></li>
+        </ul>
+      </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8">
+      </div>
+    </div>
+</nav>
+
+
+<%= yield %>
+
+
+<!--footer-->
+<div class="container">
+  <section>
+    <br/><br/><br/><br/><br/><br/><br/><br/> <br/><br/>  <br/><br/> 
+        <div class="container col-sm-12 row">
+            <div class="gray control-label-left">
+                    <p>정이 넘치는 부엌</p>
+                    <h4>정 in the Kitchen</h4>
+                    <h6>
+                    
+                        <%= link_to 'https://www.youtube.com/channel/UCLD470iMbLCx_r_VksHQzIg' do %>
+                            <%= image_tag "youtube.png", :class =>"square img-hover"%>
+                        <% end %>
+                        <%= link_to 'https://instagram.com/jung_kitchen' do %>
+                            <%= image_tag "instagram.png", :class =>"square img-hover"%>
+                        <% end %>
+                        <%= link_to 'http://blog.naver.com/corluck' do %>
+                            <%= image_tag "naver.png", :class =>"square img-hover"%>
+                        <% end %>
+                    </h6>
+                    <h6> 대표 성유정  | 주소 대구시 수성구 상동 66-7  | 전화 053.767.0611  | 이메일 corluck@naver.com  |  <a href="/home/policy"><strong>환불 및 취소 정책</strong></a>  |  ©정인더키친  </h6>
+                </div>
+            <br/><br/>    
+    </section>
+   </div>
+    <!--/.footer-->
+</body>
+</html>

@@ -1,0 +1,153 @@
+<div class="margin-top"></div><!--nav margin-->
+<div class="container">
+    <!--intro-->
+    <div class="row">
+        <div class="col-sm-12">
+            <h2 class="page-header darkgray">신청하기 <small>%성인 클래스%</small></h2>
+        </div>
+    </div>
+    <!-- /.intro -->
+    <br/><br/>
+
+    <!-- apply form -->
+    <section>
+      <%=form_tag do %>
+          <!--class name-->
+          <div class="container"> 
+              <label class="col-sm-4 control-label-right">클래스 명</label>
+              <div class="col-sm-8 control-label-left">
+                  <div class="col-sm-4">
+                      <p>%클래스 명 불러오기%</p>
+                  </div>
+              </div>
+          </div>
+          <!--/.class name-->
+          <!--class time-->
+          <div class="container"> 
+              <label class="col-sm-4 control-label-right">클래스 날짜</label>
+                  <div class="col-sm-8 control-label-left">
+                      <div class="col-sm-4">
+                          <p>%클래스 날짜 불러오기%</p>
+                      </div>
+                </div>
+          </div>
+          <!--/.class time-->
+          <!--class time-->
+          <div class="container"> 
+              <label class="col-sm-4 control-label-right">강의시간</label>
+                  <div class="col-sm-4 control-label-left">
+                      <div>
+                          <p><input type="radio" name="time" value="오전" checked>오전<input type="radio" name="time" value="오후">오후</p>
+                      </div>
+                  </div>
+          </div>
+          <!--/.class time-->
+          <!--user name-->
+          <div class="name-wrapper">
+              <div class="container">
+                  <label class="col-sm-4 control-label-right">수강자 이름<br/>
+                      <button type="button" class="btn btn-xs btn-default add-name"> + </button> <button type="button" class="btn btn-default btn-xs del-name"> - </button> <input type="text" id="name-count" name="name_count" hidden="true">
+                  </label>
+                      <div id="stu_wrap">
+                          <div class="col-sm-2">
+                              <input type="text" class="form-control name-input" id="name-1" type="text" name="name_1" required placeholder="사용자이름." value="%기존이름 불러오기%">
+                          </div>
+                      </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="col-sm-4"></div><div class="col-sm-8"><p><small>1인 최대 신청 가능 인원은 3인입니다.<br/> 4인이상 등록을 원하시면 053-767-0611으로 문의해주세요.</small></p></div>
+          </div>
+          <!--/.user name-->
+          <br/>
+          <!--payer name-->
+          <div class="container">
+              <label class="col-sm-4 control-label-right">입금자 이름</label>
+                  <div class="col-sm-2">
+                      <input type="text" class="form-control" value="%기존이름 불러오기%">
+                  </div>
+          </div>
+          <!--/.payer name-->
+          <br/>
+          <!--phone number-->
+          <div class="container">    
+              <label class="col-sm-4 control-label-right">연락처</label>
+                  <div class="col-sm-2">
+                      <input type="text" class="form-control" value="%기존 연락처 불러오기%">
+                  </div>
+          </div>
+          <!--/.phone number-->
+          <br/>
+          <!--email address-->
+          <div class="container">    
+                <label class="col-sm-4 control-label-right">이메일</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" value="%기존 이메일 불러오기%">
+                </div>
+          </div>
+          <!--/.email address-->
+          <br/><br/>
+          <!--button-->  
+          <form>
+              <div class="container">
+                  <label class="col-sm-4"></label>
+                  <div class="col-sm-4 control-label-left"> 
+                      <a class="btn btn-default">뒤로가기</a> <a href="/classes/completion" class="btn btn-red-2">신청완료</a>
+                  </div>
+              </div>
+          </form>
+          <!--/.button-->
+        </div>
+      <%end%>
+    </section>
+    <!-- /. apply form -->
+
+<script type="text/javascript">
+  
+
+//<!--로그인 하지 않았을 때 보여주는 창.-->
+  $(document).ready(function(){
+    
+    alert('아직 회원가입을 하지 않으셨나요? 가입 후 신청하시면 클래스 리워드 프로그램의 일환으로 10회 수강 후 무료 수강의 기회를 얻으실 수 있습니다.');
+    // var returnValue = ("");
+    // document.write(returnValue);
+  });
+  //<!--/.창 끝-->
+
+
+  $(document).ready(function() {
+      var max_fields      = 3; //maximum input boxes allowed
+      var wrapper          = $("#stu_wrap"); //Fields wrapper
+      var add_button      = $(".add-name"); //Add button ID
+      var del_button      = $(".del-name");
+     
+      var x = 1; //initlal text box count
+      $('#name-count').val(x);
+      $(add_button).click(function(e){ //on add input button click
+          e.preventDefault();
+          if(x < max_fields){ //max input box allowed
+              x++; //text box increment
+              $('#name-count').val(x);
+              $(wrapper).append('<div class="col-sm-2"><input class="form-control name-input" id="name-'+x+'" name="name_'+x+'" required>'); //add input box
+          } else {
+            alert('1인 최대 등록 가능인원은 3인 입니다. 4인 이상의 신청을 원하실 시, 053-767-0611으로 문의해주세요.');
+          }
+      });
+
+      $(del_button).click(function(e){ //on add input button click
+          e.preventDefault();
+          if(x > 1){ //max input box allowed
+               //text box increment
+               $('#name-'+x.toString()).parent('div').remove();
+
+              x--;
+              $('#name-count').val(x);
+          } else {
+            alert('최소 1인 이상 등록해야 합니다.');
+          }
+      });
+      
+  });
+
+</script>
+         
