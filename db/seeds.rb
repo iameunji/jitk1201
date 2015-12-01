@@ -18,7 +18,7 @@ Admin.create(
 
 
 user = User.new
-user.email = 'admin@admin'
+user.email = 'admin@admin.com'
 user.password = '12341234'
 user.password_confirmation = '12341234'
 user.name = '관리자'

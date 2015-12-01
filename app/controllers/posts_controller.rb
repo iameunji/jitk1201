@@ -61,6 +61,15 @@ class PostsController < ApplicationController
 	    end
 	  end
 
+	  def destroy
+
+	  	p=Post.find(params[:id].to_i)
+	  	p.destroy
+
+	  	redirect_to :back
+
+	  end
+
 	private
 
 	  def post_params

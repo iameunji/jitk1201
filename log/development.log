@@ -52442,3 +52442,2401 @@ Started GET "/assets/ckeditor/skins/moono/icons_hidpi.png" for ::1 at 2015-12-01
 
 
 Started GET "/assets/ckeditor/contents.css?t=FACH" for ::1 at 2015-12-01 14:40:03 +0900
+
+
+Started GET "/" for ::1 at 2015-12-01 15:05:47 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered home/index.html.erb within layouts/application (179.4ms)
+Completed 200 OK in 525ms (Views: 506.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-16792eb5280ca59da25b14002fed2a0d6cfc4797c2819ab2c1b792f68805d858.css?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2015-12-01 15:05:47 +0900
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/fullcalendar.self-c8fe1946e09521558218e2de5482895e9475903f55b19eb21853ccef233b6f77.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/ckeditor/init.self-2f3e80b764bc18c9362e6f3326e1f32d4a8bdceff67345a3453a93b111626ff3.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/ckeditor/ckeditor.self-c3460cda11936f552520b05d3e4d6e15606c06bdd2e37507e76682082b74e4bf.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/bootstrap.min.self-07b979e5023f465c961e1617dc66732d7a25480900cdff80c9a7842f1307d65e.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/jquery-ui-1.11.1.self-643c0cfa60a47b557e4d283ad2ee61a8078c5e5b0a1b0e58fc815ed8b37e8df1.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/jquery-ui.multidatespicker.self-c6c9b6a2eefcee22c05dcd092900c191aef85036dda8eb71e86be5996d0f5cf8.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/class1-c22a59bca45f46e1f778be1f95e45f382608a457a1b377ca3b4613368a98325d.jpg" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/instagram-b41942201c5a8b79b9e6617fc86edbdccbc8edfb26c52ee5d3c2a31439bd905f.png" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/naver-da593f3b3ff12aa909c89e66ac2faa9d186ea46253b21d0e6a6484b4063e599a.png" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/youtube-0a1f307f0b2deca8c88258b07e633239bdb073e7c62d23ce8d23cd72c219d6f2.png" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/assets/main-a5f1475bfc693f92d1368bc63284ca3f4c04f1f7d157ad1a55a49b4f2d503b54.mp4" for ::1 at 2015-12-01 15:05:48 +0900
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:05:50 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.5ms)
+
+SyntaxError (/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:44: syntax error, unexpected ',', expecting keyword_end
+..."class1.jpg", :width => "100%", :height => "400px", :class =...
+...                               ^
+/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:44: syntax error, unexpected ',', expecting keyword_end
+... => "100%", :height => "400px", :class =>"img-hover");@outpu...
+...                               ^
+/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:44: syntax error, unexpected ')', expecting keyword_end
+... "400px", :class =>"img-hover");@output_buffer.safe_append='
+...                               ^
+/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:80: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;         end 
+                     ^
+/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:175: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:177: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/posts/index.html.erb:44: syntax error, unexpected ',', expecting keyword_end
+  app/views/posts/index.html.erb:44: syntax error, unexpected ',', expecting keyword_end
+  app/views/posts/index.html.erb:44: syntax error, unexpected ')', expecting keyword_end
+  app/views/posts/index.html.erb:80: syntax error, unexpected keyword_end, expecting ')'
+  app/views/posts/index.html.erb:175: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/posts/index.html.erb:177: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (18.0ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (39.8ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:05:51 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+SyntaxError (/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:44: syntax error, unexpected ',', expecting keyword_end
+..."class1.jpg", :width => "100%", :height => "400px", :class =...
+...                               ^
+/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:44: syntax error, unexpected ',', expecting keyword_end
+... => "100%", :height => "400px", :class =>"img-hover");@outpu...
+...                               ^
+/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:44: syntax error, unexpected ')', expecting keyword_end
+... "400px", :class =>"img-hover");@output_buffer.safe_append='
+...                               ^
+/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:80: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;         end 
+                     ^
+/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:175: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/baeeunji/jitk1201/app/views/posts/index.html.erb:177: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/posts/index.html.erb:44: syntax error, unexpected ',', expecting keyword_end
+  app/views/posts/index.html.erb:44: syntax error, unexpected ',', expecting keyword_end
+  app/views/posts/index.html.erb:44: syntax error, unexpected ')', expecting keyword_end
+  app/views/posts/index.html.erb:80: syntax error, unexpected keyword_end, expecting ')'
+  app/views/posts/index.html.erb:175: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/posts/index.html.erb:177: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.1ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:07:11 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1  [["class_state", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC[0m  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 190ms (Views: 188.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-16792eb5280ca59da25b14002fed2a0d6cfc4797c2819ab2c1b792f68805d858.css?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/fullcalendar.self-c8fe1946e09521558218e2de5482895e9475903f55b19eb21853ccef233b6f77.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/ckeditor/init.self-2f3e80b764bc18c9362e6f3326e1f32d4a8bdceff67345a3453a93b111626ff3.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/ckeditor/ckeditor.self-c3460cda11936f552520b05d3e4d6e15606c06bdd2e37507e76682082b74e4bf.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/bootstrap.min.self-07b979e5023f465c961e1617dc66732d7a25480900cdff80c9a7842f1307d65e.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/jquery-ui.multidatespicker.self-c6c9b6a2eefcee22c05dcd092900c191aef85036dda8eb71e86be5996d0f5cf8.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/jquery-ui-1.11.1.self-643c0cfa60a47b557e4d283ad2ee61a8078c5e5b0a1b0e58fc815ed8b37e8df1.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/youtube-0a1f307f0b2deca8c88258b07e633239bdb073e7c62d23ce8d23cd72c219d6f2.png" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/instagram-b41942201c5a8b79b9e6617fc86edbdccbc8edfb26c52ee5d3c2a31439bd905f.png" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/assets/naver-da593f3b3ff12aa909c89e66ac2faa9d186ea46253b21d0e6a6484b4063e599a.png" for ::1 at 2015-12-01 15:07:12 +0900
+
+
+Started GET "/admin" for ::1 at 2015-12-01 15:07:16 +0900
+Processing by AdminController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered admin/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 180ms (Views: 178.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/new" for ::1 at 2015-12-01 15:07:17 +0900
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (49.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 224ms (Views: 222.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" for ::1 at 2015-12-01 15:07:17 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (25.1ms)
+
+
+Started GET "/assets/ckeditor/config.js?t=FACH" for ::1 at 2015-12-01 15:07:18 +0900
+
+
+Started GET "/assets/ckeditor/skins/moono/editor.css?t=FACH" for ::1 at 2015-12-01 15:07:18 +0900
+
+
+Started GET "/assets/ckeditor/lang/ko.js?t=FACH" for ::1 at 2015-12-01 15:07:18 +0900
+
+
+Started GET "/assets/ckeditor/styles.js?t=FACH" for ::1 at 2015-12-01 15:07:18 +0900
+
+
+Started GET "/assets/ckeditor/skins/moono/icons_hidpi.png" for ::1 at 2015-12-01 15:07:18 +0900
+
+
+Started GET "/assets/ckeditor/contents.css?t=FACH" for ::1 at 2015-12-01 15:07:18 +0900
+
+
+Started GET "/assets/images/ui-bg_gloss-wave_35_f6a828_500x100.png" for ::1 at 2015-12-01 15:07:19 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_gloss-wave_35_f6a828_500x100.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.4ms)
+
+
+Started GET "/assets/images/ui-icons_ffffff_256x240.png" for ::1 at 2015-12-01 15:07:19 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-icons_ffffff_256x240.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (26.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (59.8ms)
+
+
+Started GET "/assets/images/ui-bg_glass_100_f6f6f6_1x400.png" for ::1 at 2015-12-01 15:07:19 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_100_f6f6f6_1x400.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.0ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (25.7ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" for ::1 at 2015-12-01 15:07:19 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_highlight-soft_75_ffe45c_1x100.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (37.7ms)
+
+
+Started GET "/assets/images/ui-bg_glass_100_fdf5ce_1x400.png" for ::1 at 2015-12-01 15:07:20 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_100_fdf5ce_1x400.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/assets/images/ui-bg_glass_65_ffffff_1x400.png" for ::1 at 2015-12-01 15:07:20 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_65_ffffff_1x400.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.4ms)
+
+
+Started POST "/posts" for ::1 at 2015-12-01 15:07:34 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1K3/5F8GXL9nGYgkLqwy2FC8/AD07VTFt1cS9pW5u4nkC4jPxiTNoLdRmojtDRliHn/R1p9cmN1WdaWfTLQadA==", "post"=>{"class_state"=>"1", "am_pm"=>"am", "time_state"=>"1", "date"=>"12/02/2015, 12/09/2015", "title"=>"테스트 클래스", "short"=>"안녕", "body"=>"<p>하세요</p>\r\n"}, "commit"=>"Create Post"}
+Unpermitted parameter: date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("title", "short", "body", "class_state", "time_state", "am_pm", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "테스트 클래스"], ["short", "안녕"], ["body", "<p>하세요</p>\r\n"], ["class_state", 1], ["time_state", 1], ["am_pm", "am"], ["date", "---\n- 12/02/2015\n- 12/09/2015\n"], ["created_at", "2015-12-01 06:07:34.396565"], ["updated_at", "2015-12-01 06:07:34.396565"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/classes/1/posts
+Completed 302 Found in 6ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:07:34 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["class_state", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 190ms (Views: 189.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/currentapply/3" for ::1 at 2015-12-01 15:08:17 +0900
+Processing by AdminController#currentapply as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mApply Load (0.2ms)[0m  SELECT "applies".* FROM "applies" WHERE "applies"."post_id" = ? AND "applies"."success" = ?  [["post_id", 3], ["success", "f"]]
+  [1m[36mApply Load (0.1ms)[0m  [1mSELECT "applies".* FROM "applies" WHERE "applies"."post_id" = ? AND "applies"."success" = ?[0m  [["post_id", 3], ["success", "t"]]
+  Rendered admin/currentapply.html.erb within layouts/application (16.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+Completed 200 OK in 196ms (Views: 181.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/classes/1/apply/3" for ::1 at 2015-12-01 15:08:22 +0900
+Processing by ClassesController#apply as HTML
+  Parameters: {"class_id"=>"1", "id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered classes/apply.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 171ms (Views: 169.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/classes/1/post/" for ::1 at 2015-12-01 15:08:33 +0900
+
+ActionController::RoutingError (No route matches [GET] "/classes/1/post"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.1ms)
+
+
+Started GET "/classes/1/post/" for ::1 at 2015-12-01 15:08:33 +0900
+
+ActionController::RoutingError (No route matches [GET] "/classes/1/post"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.6ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:08:57 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["class_state", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 183ms (Views: 182.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-16792eb5280ca59da25b14002fed2a0d6cfc4797c2819ab2c1b792f68805d858.css?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/fullcalendar.self-c8fe1946e09521558218e2de5482895e9475903f55b19eb21853ccef233b6f77.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/ckeditor/init.self-2f3e80b764bc18c9362e6f3326e1f32d4a8bdceff67345a3453a93b111626ff3.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/ckeditor/ckeditor.self-c3460cda11936f552520b05d3e4d6e15606c06bdd2e37507e76682082b74e4bf.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/bootstrap.min.self-07b979e5023f465c961e1617dc66732d7a25480900cdff80c9a7842f1307d65e.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/jquery-ui-1.11.1.self-643c0cfa60a47b557e4d283ad2ee61a8078c5e5b0a1b0e58fc815ed8b37e8df1.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/jquery-ui.multidatespicker.self-c6c9b6a2eefcee22c05dcd092900c191aef85036dda8eb71e86be5996d0f5cf8.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/class1-c22a59bca45f46e1f778be1f95e45f382608a457a1b377ca3b4613368a98325d.jpg" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/youtube-0a1f307f0b2deca8c88258b07e633239bdb073e7c62d23ce8d23cd72c219d6f2.png" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/instagram-b41942201c5a8b79b9e6617fc86edbdccbc8edfb26c52ee5d3c2a31439bd905f.png" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/assets/naver-da593f3b3ff12aa909c89e66ac2faa9d186ea46253b21d0e6a6484b4063e599a.png" for ::1 at 2015-12-01 15:08:57 +0900
+
+
+Started GET "/classes/1/posts/3" for ::1 at 2015-12-01 15:08:59 +0900
+Processing by PostsController#show as HTML
+  Parameters: {"class_id"=>"1", "id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered posts/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 177ms (Views: 175.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/classes/1/posts/3" for ::1 at 2015-12-01 15:09:05 +0900
+Processing by PostsController#show as HTML
+  Parameters: {"class_id"=>"1", "id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  Rendered posts/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 177ms (Views: 176.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:10:10 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["class_state", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 228ms (Views: 226.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-16792eb5280ca59da25b14002fed2a0d6cfc4797c2819ab2c1b792f68805d858.css?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/ckeditor/init.self-2f3e80b764bc18c9362e6f3326e1f32d4a8bdceff67345a3453a93b111626ff3.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/fullcalendar.self-c8fe1946e09521558218e2de5482895e9475903f55b19eb21853ccef233b6f77.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/ckeditor/ckeditor.self-c3460cda11936f552520b05d3e4d6e15606c06bdd2e37507e76682082b74e4bf.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/bootstrap.min.self-07b979e5023f465c961e1617dc66732d7a25480900cdff80c9a7842f1307d65e.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/jquery-ui.multidatespicker.self-c6c9b6a2eefcee22c05dcd092900c191aef85036dda8eb71e86be5996d0f5cf8.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/jquery-ui-1.11.1.self-643c0cfa60a47b557e4d283ad2ee61a8078c5e5b0a1b0e58fc815ed8b37e8df1.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/class1-c22a59bca45f46e1f778be1f95e45f382608a457a1b377ca3b4613368a98325d.jpg" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/naver-da593f3b3ff12aa909c89e66ac2faa9d186ea46253b21d0e6a6484b4063e599a.png" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/youtube-0a1f307f0b2deca8c88258b07e633239bdb073e7c62d23ce8d23cd72c219d6f2.png" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started GET "/assets/instagram-b41942201c5a8b79b9e6617fc86edbdccbc8edfb26c52ee5d3c2a31439bd905f.png" for ::1 at 2015-12-01 15:10:11 +0900
+
+
+Started DELETE "/classes/1/posts/3" for ::1 at 2015-12-01 15:10:12 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7sZDylpIDYtEf7/zFoKz+63bQvX6eurdGBL28kq7ALTeYDThw2qclJQ3rV/VI5hB4xhvI5HLJsX5MEGbk7ahSQ==", "class_id"=>"1", "id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/classes/1/posts
+Completed 302 Found in 7ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:10:12 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 3]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["class_state", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 182ms (Views: 180.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/classes" for ::1 at 2015-12-01 15:10:19 +0900
+Processing by ClassesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  [["class_state", 0]]
+  Rendered classes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 160ms (Views: 158.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/intro" for ::1 at 2015-12-01 15:10:20 +0900
+Processing by HomeController#intro as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  Rendered home/intro.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 174ms (Views: 173.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home/calendar" for ::1 at 2015-12-01 15:10:23 +0900
+Processing by HomeController#calendar as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered home/calendar.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 171ms (Views: 170.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/classes/3/posts" for ::1 at 2015-12-01 15:10:27 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"3"}
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1  [["class_state", 3]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC[0m  [["class_state", 3]]
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 183ms (Views: 180.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/classes/4/posts" for ::1 at 2015-12-01 15:10:29 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"4"}
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1  [["class_state", 4]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC[0m  [["class_state", 4]]
+  Rendered posts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 172ms (Views: 170.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/classes/5/posts" for ::1 at 2015-12-01 15:10:31 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"5"}
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1  [["class_state", 5]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC[0m  [["class_state", 5]]
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 182ms (Views: 179.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:10:33 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1  [["class_state", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC[0m  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 177ms (Views: 174.9ms | ActiveRecord: 0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "admins" ("intro_text", "class_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["intro_text", "정 인 더 키친은 ‘정이 넘치는 부엌’이라는 뜻입니다.\n2008년, 어느 아파트의 5평 작은 주방에서부터 시작된 요리에 대한 열망은 지속적으로 이어져 오늘날의 정 인 더 키친을 탄생하게 하였습니다.\n바쁜 일상속에서 질좋은 재료로 정성껏 요리한 음식을 누군가와 함께 나누어 먹을 때의 행복을 함께 나누고 싶은 ‘정 인 더 키친’은, 어린이부터 어른까지 나이와 성별을 구분하지 않고 누구나 즐겁게 요리할 수 있는 곳이며, 여러분들의 식탁에 사랑과 정을 듬뿍 담아 올릴 수 있는 특별한 경험을 할 수 있도록 늘 가까이 하고자 합니다."], ["class_text", "---\n- \"한 달에 두 번 3개월간 수강하여 봄, 여름, 가을, 겨울 사계절의 제철재료와 로컬푸드를 이용하여 요리하는 본격 가정식수업입니다.\"\n- \"시즌별 (소풍, 어린이날, 스승의 날, 설, 추석, 크리스마스, 계절파티 등) 테마에 맞는 요리를 하루 동안 경험해 보는 수업입니다.\"\n- 4세~7세 어린이들에게 요리에 대한 동기를 부여해주기 위하여 양질의 동화책을 선별하고 동화책 속의 모티브를 요리와 연계하여 진행하는 수업입니다.\n- \"초등1학년부터 중학생까지 매 월 새로운 테마(제철재료 등)의 요리를 경험하고 초기 자신의 진로경험에 도움을 줄 수 있는 수업입니다.\"\n- \"원하는 사람과 함께 원하는 시간에 원하는 요리를 배워볼 수 있는 맞춤식클래스입니다.\"\n"], ["created_at", "2015-12-01 06:10:48.335683"], ["updated_at", "2015-12-01 06:10:48.335683"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'admin@admin' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mAdmin Load (1.4ms)[0m  [1mSELECT "admins".* FROM "admins"[0m
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.3ms)[0m  select sqlite_version(*)
+  [1m[36m (0.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreatePosts (20151127194541)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "short" varchar, "img" text, "date" text, "class_state" integer, "time_state" integer, "am_pm" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151127194541"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Migrating to DeviseCreateUsers (20151127200430)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar, "last_sign_in_ip" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (1.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151127200430"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreateComments (20151129065145)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "comments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "post_id" integer, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151129065145"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Migrating to CreateApplies (20151129070041)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "applies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "post_id" integer, "success" boolean DEFAULT 'f', "users" varchar, "user_deposit" varchar, "am_pm" varchar, "email" varchar, "mobile" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151129070041"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Migrating to AddToUsers (20151129070500)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "name" varchar DEFAULT ''[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "users" ADD "mobile" varchar DEFAULT ''
+  [1m[36m (0.3ms)[0m  [1mALTER TABLE "users" ADD "admin" boolean DEFAULT 'f'[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151129070500"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Migrating to CreateAdmins (20151129090959)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "admins" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "oneday" boolean DEFAULT 'f', "intro_text" text, "intro_img" text, "class_text" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151129090959"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Migrating to CreateAddToAdmins (20151201031328)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mALTER TABLE "admins" ADD "video" varchar DEFAULT ''[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "admins" ADD "video_class" varchar DEFAULT ''
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151201031328"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "admins" ("intro_text", "class_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["intro_text", "정 인 더 키친은 ‘정이 넘치는 부엌’이라는 뜻입니다.\n2008년, 어느 아파트의 5평 작은 주방에서부터 시작된 요리에 대한 열망은 지속적으로 이어져 오늘날의 정 인 더 키친을 탄생하게 하였습니다.\n바쁜 일상속에서 질좋은 재료로 정성껏 요리한 음식을 누군가와 함께 나누어 먹을 때의 행복을 함께 나누고 싶은 ‘정 인 더 키친’은, 어린이부터 어른까지 나이와 성별을 구분하지 않고 누구나 즐겁게 요리할 수 있는 곳이며, 여러분들의 식탁에 사랑과 정을 듬뿍 담아 올릴 수 있는 특별한 경험을 할 수 있도록 늘 가까이 하고자 합니다."], ["class_text", "---\n- \"한 달에 두 번 3개월간 수강하여 봄, 여름, 가을, 겨울 사계절의 제철재료와 로컬푸드를 이용하여 요리하는 본격 가정식수업입니다.\"\n- \"시즌별 (소풍, 어린이날, 스승의 날, 설, 추석, 크리스마스, 계절파티 등) 테마에 맞는 요리를 하루 동안 경험해 보는 수업입니다.\"\n- 4세~7세 어린이들에게 요리에 대한 동기를 부여해주기 위하여 양질의 동화책을 선별하고 동화책 속의 모티브를 요리와 연계하여 진행하는 수업입니다.\n- \"초등1학년부터 중학생까지 매 월 새로운 테마(제철재료 등)의 요리를 경험하고 초기 자신의 진로경험에 도움을 줄 수 있는 수업입니다.\"\n- \"원하는 사람과 함께 원하는 시간에 원하는 요리를 배워볼 수 있는 맞춤식클래스입니다.\"\n"], ["created_at", "2015-12-01 06:11:57.006287"], ["updated_at", "2015-12-01 06:11:57.006287"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'admin@admin' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "admins" ("intro_text", "class_text", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["intro_text", "정 인 더 키친은 ‘정이 넘치는 부엌’이라는 뜻입니다.\n2008년, 어느 아파트의 5평 작은 주방에서부터 시작된 요리에 대한 열망은 지속적으로 이어져 오늘날의 정 인 더 키친을 탄생하게 하였습니다.\n바쁜 일상속에서 질좋은 재료로 정성껏 요리한 음식을 누군가와 함께 나누어 먹을 때의 행복을 함께 나누고 싶은 ‘정 인 더 키친’은, 어린이부터 어른까지 나이와 성별을 구분하지 않고 누구나 즐겁게 요리할 수 있는 곳이며, 여러분들의 식탁에 사랑과 정을 듬뿍 담아 올릴 수 있는 특별한 경험을 할 수 있도록 늘 가까이 하고자 합니다."], ["class_text", "---\n- \"한 달에 두 번 3개월간 수강하여 봄, 여름, 가을, 겨울 사계절의 제철재료와 로컬푸드를 이용하여 요리하는 본격 가정식수업입니다.\"\n- \"시즌별 (소풍, 어린이날, 스승의 날, 설, 추석, 크리스마스, 계절파티 등) 테마에 맞는 요리를 하루 동안 경험해 보는 수업입니다.\"\n- 4세~7세 어린이들에게 요리에 대한 동기를 부여해주기 위하여 양질의 동화책을 선별하고 동화책 속의 모티브를 요리와 연계하여 진행하는 수업입니다.\n- \"초등1학년부터 중학생까지 매 월 새로운 테마(제철재료 등)의 요리를 경험하고 초기 자신의 진로경험에 도움을 줄 수 있는 수업입니다.\"\n- \"원하는 사람과 함께 원하는 시간에 원하는 요리를 배워볼 수 있는 맞춤식클래스입니다.\"\n"], ["created_at", "2015-12-01 06:12:22.201360"], ["updated_at", "2015-12-01 06:12:22.201360"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'admin@admin.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "name", "admin", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "admin@admin.com"], ["encrypted_password", "$2a$10$Q5ttiwYswv6zCMhiVCkwDukGFPvmgOrUUE7xM8szLeowFbm6jnfbW"], ["name", "관리자"], ["admin", "t"], ["created_at", "2015-12-01 06:12:22.296798"], ["updated_at", "2015-12-01 06:12:22.296798"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:12:26 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 3]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1  [["class_state", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC[0m  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 207ms (Views: 192.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.self-16792eb5280ca59da25b14002fed2a0d6cfc4797c2819ab2c1b792f68805d858.css?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/fullcalendar.self-c8fe1946e09521558218e2de5482895e9475903f55b19eb21853ccef233b6f77.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/ckeditor/init.self-2f3e80b764bc18c9362e6f3326e1f32d4a8bdceff67345a3453a93b111626ff3.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/ckeditor/ckeditor.self-c3460cda11936f552520b05d3e4d6e15606c06bdd2e37507e76682082b74e4bf.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/bootstrap.min.self-07b979e5023f465c961e1617dc66732d7a25480900cdff80c9a7842f1307d65e.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/jquery-ui-1.11.1.self-643c0cfa60a47b557e4d283ad2ee61a8078c5e5b0a1b0e58fc815ed8b37e8df1.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/jquery-ui.multidatespicker.self-c6c9b6a2eefcee22c05dcd092900c191aef85036dda8eb71e86be5996d0f5cf8.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/youtube-0a1f307f0b2deca8c88258b07e633239bdb073e7c62d23ce8d23cd72c219d6f2.png" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/instagram-b41942201c5a8b79b9e6617fc86edbdccbc8edfb26c52ee5d3c2a31439bd905f.png" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/assets/naver-da593f3b3ff12aa909c89e66ac2faa9d186ea46253b21d0e6a6484b4063e599a.png" for ::1 at 2015-12-01 15:12:26 +0900
+
+
+Started GET "/classes" for ::1 at 2015-12-01 15:12:28 +0900
+Processing by ClassesController#index as HTML
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  [["class_state", 0]]
+  Rendered classes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 172ms (Views: 171.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home/intro" for ::1 at 2015-12-01 15:12:29 +0900
+Processing by HomeController#intro as HTML
+  Rendered home/intro.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 214ms (Views: 213.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/calendar" for ::1 at 2015-12-01 15:12:30 +0900
+Processing by HomeController#calendar as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered home/calendar.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 172ms (Views: 171.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:12:32 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[35mAdmin Load (0.2ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["class_state", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 171ms (Views: 168.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/classes/6/posts" for ::1 at 2015-12-01 15:12:34 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"6"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1  [["class_state", 6]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC[0m  [["class_state", 6]]
+  Rendered posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 176ms (Views: 175.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-12-01 15:12:36 +0900
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 186ms (Views: 178.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-12-01 15:12:42 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FOPYOpHepH4iqw2p0KoETLgXgci8BncKmfstThk0jjskRa8RCPw1YfLjHwUTCy/29tSsHte3uxJ42ZonwDkvxg==", "user"=>{"email"=>"admim@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "admim@admin.com"]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.2ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FOPYOpHepH4iqw2p0KoETLgXgci8BncKmfstThk0jjskRa8RCPw1YfLjHwUTCy/29tSsHte3uxJ42ZonwDkvxg==", "user"=>{"email"=>"admim@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 249ms (Views: 175.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-12-01 15:12:45 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"snqLJkX14BGLwqtYefuwdLYcJYNZq8ZtkI2oWlpu4YKC3PwN3NdxDluKufS6WpvO+N8IVTIaCnVxrx8zg2NAfw==", "user"=>{"email"=>"admim@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "admim@admin.com"]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.1ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"snqLJkX14BGLwqtYefuwdLYcJYNZq8ZtkI2oWlpu4YKC3PwN3NdxDluKufS6WpvO+N8IVTIaCnVxrx8zg2NAfw==", "user"=>{"email"=>"admim@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 245ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-12-01 15:13:36 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"snqLJkX14BGLwqtYefuwdLYcJYNZq8ZtkI2oWlpu4YKC3PwN3NdxDluKufS6WpvO+N8IVTIaCnVxrx8zg2NAfw==", "user"=>{"email"=>"admim@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "admim@admin.com"]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.4ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"snqLJkX14BGLwqtYefuwdLYcJYNZq8ZtkI2oWlpu4YKC3PwN3NdxDluKufS6WpvO+N8IVTIaCnVxrx8zg2NAfw==", "user"=>{"email"=>"admim@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 274ms (Views: 205.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-16792eb5280ca59da25b14002fed2a0d6cfc4797c2819ab2c1b792f68805d858.css?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/moment.self-9e3cbea792908410da80685bcee3695e54b449d063e5dadb3b6c05e038b46444.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/fullcalendar.self-c8fe1946e09521558218e2de5482895e9475903f55b19eb21853ccef233b6f77.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/ckeditor/init.self-2f3e80b764bc18c9362e6f3326e1f32d4a8bdceff67345a3453a93b111626ff3.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/ckeditor/ckeditor.self-c3460cda11936f552520b05d3e4d6e15606c06bdd2e37507e76682082b74e4bf.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/bootstrap.min.self-07b979e5023f465c961e1617dc66732d7a25480900cdff80c9a7842f1307d65e.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/classes.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/jquery-ui-1.11.1.self-643c0cfa60a47b557e4d283ad2ee61a8078c5e5b0a1b0e58fc815ed8b37e8df1.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/jquery-ui.multidatespicker.self-c6c9b6a2eefcee22c05dcd092900c191aef85036dda8eb71e86be5996d0f5cf8.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/youtube-0a1f307f0b2deca8c88258b07e633239bdb073e7c62d23ce8d23cd72c219d6f2.png" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/naver-da593f3b3ff12aa909c89e66ac2faa9d186ea46253b21d0e6a6484b4063e599a.png" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started GET "/assets/instagram-b41942201c5a8b79b9e6617fc86edbdccbc8edfb26c52ee5d3c2a31439bd905f.png" for ::1 at 2015-12-01 15:13:37 +0900
+
+
+Started POST "/users/sign_in" for ::1 at 2015-12-01 15:13:42 +0900
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eByAhadnCgD76Wv2sAm+TyE+m87xZBbLKXtxQ9KuF+dIuveuPkWbHyuheVpzqJX1b/22GJrV2tPIWcYqC6O2Gg==", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "remember_me"=>"0"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "admin@admin.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-12-01 06:13:42.303806"], ["current_sign_in_at", "2015-12-01 06:13:42.303806"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2015-12-01 06:13:42.304578"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 80ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2015-12-01 15:13:42 +0900
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 181ms (Views: 180.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/edit" for ::1 at 2015-12-01 15:13:44 +0900
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mApply Load (0.1ms)[0m  SELECT "applies".* FROM "applies" WHERE "applies"."user_id" = ?  [["user_id", 1]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 208ms (Views: 204.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin" for ::1 at 2015-12-01 15:13:47 +0900
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered admin/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 218ms (Views: 215.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/classes" for ::1 at 2015-12-01 15:13:52 +0900
+Processing by ClassesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?[0m  [["class_state", 0]]
+  Rendered classes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 172ms (Views: 170.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/intro" for ::1 at 2015-12-01 15:13:53 +0900
+Processing by HomeController#intro as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered home/intro.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 174ms (Views: 173.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home/calendar" for ::1 at 2015-12-01 15:13:54 +0900
+Processing by HomeController#calendar as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered home/calendar.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 178ms (Views: 177.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:13:55 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["class_state", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 199ms (Views: 197.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin" for ::1 at 2015-12-01 15:13:58 +0900
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered admin/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 174ms (Views: 172.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/new" for ::1 at 2015-12-01 15:14:00 +0900
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (4.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 181ms (Views: 173.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" for ::1 at 2015-12-01 15:14:00 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.0ms)
+
+
+Started GET "/assets/ckeditor/config.js?t=FACH" for ::1 at 2015-12-01 15:14:01 +0900
+
+
+Started GET "/assets/ckeditor/skins/moono/editor.css?t=FACH" for ::1 at 2015-12-01 15:14:01 +0900
+
+
+Started GET "/assets/ckeditor/lang/ko.js?t=FACH" for ::1 at 2015-12-01 15:14:01 +0900
+
+
+Started GET "/assets/ckeditor/styles.js?t=FACH" for ::1 at 2015-12-01 15:14:01 +0900
+
+
+Started GET "/assets/ckeditor/skins/moono/icons_hidpi.png" for ::1 at 2015-12-01 15:14:01 +0900
+
+
+Started GET "/assets/ckeditor/contents.css?t=FACH" for ::1 at 2015-12-01 15:14:01 +0900
+
+
+Started GET "/assets/images/ui-icons_ffffff_256x240.png" for ::1 at 2015-12-01 15:14:03 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-icons_ffffff_256x240.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.9ms)
+
+
+Started GET "/assets/images/ui-bg_gloss-wave_35_f6a828_500x100.png" for ::1 at 2015-12-01 15:14:03 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_gloss-wave_35_f6a828_500x100.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (50.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (37.9ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" for ::1 at 2015-12-01 15:14:03 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_highlight-soft_75_ffe45c_1x100.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.5ms)
+
+
+Started GET "/assets/images/ui-bg_glass_100_f6f6f6_1x400.png" for ::1 at 2015-12-01 15:14:03 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_100_f6f6f6_1x400.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.0ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.6ms)
+
+
+Started GET "/assets/images/ui-bg_glass_100_fdf5ce_1x400.png" for ::1 at 2015-12-01 15:14:04 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_100_fdf5ce_1x400.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (32.2ms)
+
+
+Started GET "/assets/images/ui-bg_glass_65_ffffff_1x400.png" for ::1 at 2015-12-01 15:14:05 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_65_ffffff_1x400.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (31.9ms)
+
+
+Started POST "/posts" for ::1 at 2015-12-01 15:14:26 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aRlpmJXiMWBXOI0XhFOG5mISsJmlLaw1YvY1TVoPS0AgBMUgFG7h1bZ4ItjWjvgQ27qLVmodmMZ4gBuPYdDctw==", "post"=>{"class_state"=>"0", "am_pm"=>"am", "time_state"=>"1", "date"=>"12/02/2015, 12/09/2015, 12/16/2015", "title"=>"안녕하세요", "short"=>"반갑습니다.", "body"=>"<p>테스트입니다.</p>\r\n"}, "commit"=>"Create Post"}
+Unpermitted parameter: date
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "posts" ("title", "short", "body", "class_state", "time_state", "am_pm", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)  [["title", "안녕하세요"], ["short", "반갑습니다."], ["body", "<p>테스트입니다.</p>\r\n"], ["class_state", 0], ["time_state", 1], ["am_pm", "am"], ["date", "---\n- 12/02/2015\n- 12/09/2015\n- 12/16/2015\n"], ["created_at", "2015-12-01 06:14:26.229424"], ["updated_at", "2015-12-01 06:14:26.229424"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/classes
+Completed 302 Found in 10ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/classes" for ::1 at 2015-12-01 15:14:26 +0900
+Processing by ClassesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?[0m  [["class_state", 0]]
+  Rendered classes/index.html.erb within layouts/application (165.9ms)
+Completed 200 OK in 388ms (Views: 387.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin" for ::1 at 2015-12-01 15:14:30 +0900
+Processing by AdminController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered admin/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 178ms (Views: 176.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/posts/new" for ::1 at 2015-12-01 15:14:32 +0900
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 175ms (Views: 174.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" for ::1 at 2015-12-01 15:14:32 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.9ms)
+
+
+Started GET "/assets/ckeditor/config.js?t=FACH" for ::1 at 2015-12-01 15:14:32 +0900
+
+
+Started GET "/assets/ckeditor/skins/moono/editor.css?t=FACH" for ::1 at 2015-12-01 15:14:32 +0900
+
+
+Started GET "/assets/ckeditor/lang/ko.js?t=FACH" for ::1 at 2015-12-01 15:14:32 +0900
+
+
+Started GET "/assets/ckeditor/styles.js?t=FACH" for ::1 at 2015-12-01 15:14:32 +0900
+
+
+Started GET "/assets/ckeditor/skins/moono/icons_hidpi.png" for ::1 at 2015-12-01 15:14:32 +0900
+
+
+Started GET "/assets/ckeditor/contents.css?t=FACH" for ::1 at 2015-12-01 15:14:32 +0900
+
+
+Started GET "/assets/images/ui-bg_gloss-wave_35_f6a828_500x100.png" for ::1 at 2015-12-01 15:14:34 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_gloss-wave_35_f6a828_500x100.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (21.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (19.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (35.6ms)
+
+
+Started GET "/assets/images/ui-icons_ffffff_256x240.png" for ::1 at 2015-12-01 15:14:35 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-icons_ffffff_256x240.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (43.0ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.2ms)
+
+
+Started GET "/assets/images/ui-bg_glass_100_f6f6f6_1x400.png" for ::1 at 2015-12-01 15:14:35 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_100_f6f6f6_1x400.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.0ms)
+
+
+Started GET "/assets/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" for ::1 at 2015-12-01 15:14:35 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_highlight-soft_75_ffe45c_1x100.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.0ms)
+
+
+Started GET "/assets/images/ui-bg_glass_100_fdf5ce_1x400.png" for ::1 at 2015-12-01 15:14:36 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_100_fdf5ce_1x400.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.1ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.0ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (25.4ms)
+
+
+Started GET "/assets/images/ui-bg_glass_65_ffffff_1x400.png" for ::1 at 2015-12-01 15:14:36 +0900
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_glass_65_ffffff_1x400.png"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/baeeunji/.rbenv/versions/2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.8ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.2ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/baeeunji/.rvm/gems/ruby-2.1.6/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (28.3ms)
+
+
+Started POST "/posts" for ::1 at 2015-12-01 15:14:51 +0900
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p534qtEJBjndxcCaTpxpTb4GK9UBSpGqq7GpFNEz6//ugFQSUIXWjDyFb1UcQRe7B64QGs56pVmxx4fW6ux8CA==", "post"=>{"class_state"=>"1", "am_pm"=>"am", "time_state"=>"1", "date"=>"12/07/2015, 12/11/2015, 12/15/2015, 12/17/2015, 12/23/2015", "title"=>"성인 클래스 테스트", "short"=>"입니다.", "body"=>"<p>안녕하세요.</p>\r\n"}, "commit"=>"Create Post"}
+Unpermitted parameter: date
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("title", "short", "body", "class_state", "time_state", "am_pm", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "성인 클래스 테스트"], ["short", "입니다."], ["body", "<p>안녕하세요.</p>\r\n"], ["class_state", 1], ["time_state", 1], ["am_pm", "am"], ["date", "---\n- 12/07/2015\n- 12/11/2015\n- 12/15/2015\n- 12/17/2015\n- 12/23/2015\n"], ["created_at", "2015-12-01 06:14:51.239687"], ["updated_at", "2015-12-01 06:14:51.239687"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/classes/1/posts
+Completed 302 Found in 9ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:14:51 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["class_state", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 251ms (Views: 249.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/currentapply/2" for ::1 at 2015-12-01 15:14:56 +0900
+Processing by AdminController#currentapply as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mApply Load (0.1ms)[0m  SELECT "applies".* FROM "applies" WHERE "applies"."post_id" = ? AND "applies"."success" = ?  [["post_id", 2], ["success", "f"]]
+  [1m[36mApply Load (0.1ms)[0m  [1mSELECT "applies".* FROM "applies" WHERE "applies"."post_id" = ? AND "applies"."success" = ?[0m  [["post_id", 2], ["success", "t"]]
+  Rendered admin/currentapply.html.erb within layouts/application (4.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 182ms (Views: 175.8ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/classes/1/posts/2" for ::1 at 2015-12-01 15:14:59 +0900
+Processing by PostsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"0Y3LO+8wXY9inHPMbFPdhqYfZl6/Q+H9kaPSJGZfMIGYkGeDbryNOoPc3AM+jqNwH7ddkXBz1Q6L1fzmXYCndg==", "class_id"=>"1", "id"=>"2"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "posts" WHERE "posts"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/classes/1/posts
+Completed 302 Found in 5ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:14:59 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["class_state", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 187ms (Views: 185.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/classes/6/posts" for ::1 at 2015-12-01 15:20:23 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"6"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["class_state", 6]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC  [["class_state", 6]]
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 169ms (Views: 167.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:20:34 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1[0m  [["class_state", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 219ms (Views: 216.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/home/calendar" for ::1 at 2015-12-01 15:20:35 +0900
+Processing by HomeController#calendar as HTML
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  Rendered home/calendar.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 176ms (Views: 175.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home/intro" for ::1 at 2015-12-01 15:20:37 +0900
+Processing by HomeController#intro as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered home/intro.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 175ms (Views: 174.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/classes" for ::1 at 2015-12-01 15:20:38 +0900
+Processing by ClassesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?[0m  [["class_state", 0]]
+  Rendered classes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 184ms (Views: 182.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/classes/1/posts" for ::1 at 2015-12-01 15:20:41 +0900
+Processing by PostsController#index as HTML
+  Parameters: {"class_id"=>"1"}
+  [1m[35mAdmin Load (0.1ms)[0m  SELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC LIMIT 1  [["class_state", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."class_state" = ?  ORDER BY created_at DESC[0m  [["class_state", 1]]
+  Rendered posts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 216ms (Views: 214.0ms | ActiveRecord: 0.4ms)

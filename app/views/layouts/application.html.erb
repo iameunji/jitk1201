@@ -39,9 +39,7 @@ data-target="#bs-example-navbar-collapse-1">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CLASS <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/classes/1/posts">성인 정규 클래스</a></li>
-              <% if Admin.first.oneday == true %>
-                <li><a href="/classes/2/posts">성인 원데이 클래스</a></li><!--관리자가 노출 설정 가능하게-->
-              <% end %>
+              
               <li role="separator" class="divider"></li>
               <li><a href="/classes/3/posts">요리책방 꼬르륵</a></li>
               <li><a href="/classes/4/posts">주니어 클래스</a></li>
@@ -99,7 +97,7 @@ data-target="#bs-example-navbar-collapse-1">
                             <%= image_tag "naver.png", :class =>"square img-hover"%>
                         <% end %>
                     </h6>
-                    <h6> 대표 성유정  | 주소 대구시 수성구 상동 66-7  | 전화 053.767.0611  | 이메일 corluck@naver.com  |  <a href="/home/policy"><strong>환불 및 취소 정책</strong></a>  |  ©정인더키친  </h6>
+                    <h6> 대표 성유정  | 주소 대구시 수성구 상동 66-7  | 전화 053.767.0611  <br> 이메일 corluck@naver.com | 계좌번호 국민 818101-01-327159 성유정(정인더키친) | <a href="/home/policy"><strong>환불 및 취소 정책</strong></a>  |  ©정인더키친  </h6>
                 </div>
             <br/><br/>    
     </section>

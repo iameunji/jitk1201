@@ -5,7 +5,7 @@ class HomeController < ApplicationController
   end
 
   def intro
-  	@admin = Admin.find(1)
+
   end
 
   def calendar
