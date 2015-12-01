@@ -5,7 +5,7 @@ class PostsController < ApplicationController
 	  def index
   	 	@class_name = Hash[1 => "성인 정규 클래스", 2 => "성인 원데이 클래스", 3 => "요리책방 꼬르륵", 4 => "주니어 클래스", 5 => "PRIVATE CLASS", 6 => "정 In The Garden"]
 
-	    @posts = Post.order("date DESC")
+	    @posts = Post.order("date")
 
 	    @admin = Admin.find(1)
 
