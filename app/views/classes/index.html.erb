@@ -14,7 +14,11 @@
                 <div class="col-sm-1"><h4></h4></div>
                 <div class="col-sm-6"><h4>글제목</h4></div>
                 <div class="col-sm-3"><h4>작성날짜</h4></div>
-                <div class="col-sm-1"><h4>삭제</h4></div>
+                <% unless current_user.nil? %>
+                    <% if current_user.admin==true %>
+                        <div class="col-sm-1"><h4>삭제</h4></div>
+                    <% end %>
+                <% end %>
                 <div class="col-sm-1"><h4></h4></div>
             </div>
             <!--/.List Content Head -->
@@ -23,18 +27,28 @@
             <% @post.each do |p|%>
                 <div class="row control-label-left">
                     <div class="col-sm-1"><h4></h4></div>
-                    <div class="col-sm-6"><h4><a href="/jung/classplusnew"><%= p.title %></a></h4></div>
+                    <div class="col-sm-6"><h4><a href="/classes/0/posts/#{p.id}"><%= p.title %></a></h4></div>
                     <div class="col-sm-3"><h4><%= p.created_at.in_time_zone(9) %></h4></div>
-                    <div class="col-sm-1"><h4><input type="checkbox" <!-- name="item_id[]" value="9 -->"></input></h4></div>
+                    <% unless current_user.nil? %>
+                        <% if current_user.admin==true %>
+                            <div class="col-sm-1"><h4><input type="checkbox" <!-- name="item_id[]" value="9 -->"></input>
+                        <% end %>
+                    <% end %>
+
+                    </h4></div>
                     <div class="col-sm-1"><h4></h4></div>
                 </div>
                 <hr/>
             <% end %>
 
-            <div class="row control-label-right">
-                <a type="submit" class="btn btn-default" role="button" data-confirm="글을 삭제하시겠습니까?">삭제</a>
-                <a class="btn btn-default" href="/posts/new">글쓰기</a>
-            </div> 
+            <% unless current_user.nil? %>
+                    <% if current_user.admin==true %>
+                        <div class="row control-label-right">
+                            <a type="submit" class="btn btn-default" role="button" data-confirm="글을 삭제하시겠습니까?">삭제</a>
+                            <a class="btn btn-default" href="/posts/new">글쓰기</a>
+                        </div> 
+                    <% end %>
+            <% end %>
         </div>
         <!--/.container-fluid control-label-left-->
         

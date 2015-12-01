@@ -11,26 +11,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151129090959) do
+ActiveRecord::Schema.define(version: 20151201031328) do
 
   create_table "admins", force: :cascade do |t|
-    t.boolean  "oneday",     default: false
+    t.boolean  "oneday",      default: false
     t.text     "intro_text"
     t.text     "intro_img"
-    t.text     "class_1"
-    t.text     "class_2"
-    t.text     "class_3"
-    t.text     "class_4"
-    t.text     "class_5"
-    t.datetime "created_at",                 null: false
-    t.datetime "updated_at",                 null: false
+    t.text     "class_text"
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
+    t.string   "video",       default: ""
+    t.string   "video_class", default: ""
   end
 
   create_table "applies", force: :cascade do |t|
     t.integer  "user_id"
     t.integer  "post_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.boolean  "success",      default: false
+    t.string   "users"
+    t.string   "user_deposit"
+    t.string   "am_pm"
+    t.string   "email"
+    t.string   "mobile"
+    t.datetime "created_at",                   null: false
+    t.datetime "updated_at",                   null: false
   end
 
   create_table "comments", force: :cascade do |t|

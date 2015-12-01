@@ -58,7 +58,11 @@ data-target="#bs-example-navbar-collapse-1">
             <li><%= link_to '로그아웃', destroy_user_session_path, method: :delete %></li>
           <% end %>
 
-          <li><a href="/admin">관리자</a></li>
+          <% unless current_user.nil? %>
+            <% if current_user.admin==true %>
+              <li><a href="/admin">관리자</a></li>
+            <% end %>
+          <% end %>
         </ul>
       </div>
         <!-- /.navbar-collapse -->

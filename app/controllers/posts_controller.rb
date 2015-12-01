@@ -1,6 +1,10 @@
 class PostsController < ApplicationController
 
+
+
 	  def index
+  	 	@class_name = Hash[1 => "성인 정규 클래스", 2 => "성인 원데이 클래스", 3 => "요리책방 꼬르륵", 4 => "주니어 클래스", 5 => "PRIVATE CLASS", 6 => "정 In The Garden"]
+
 	    @posts = Post.order("created_at DESC")
 
 	    @admin = Admin.find(1)
@@ -8,6 +12,9 @@ class PostsController < ApplicationController
 	  end
 
 	  def show
+  	  	@class_name = Hash[1 => "성인 정규 클래스", 2 => "성인 원데이 클래스", 3 => "요리책방 꼬르륵", 4 => "주니어 클래스", 5 => "PRIVATE CLASS", 6 => "정 In The Garden"]
+
+
 	    @post = Post.find(params[:id])
 	  end
 

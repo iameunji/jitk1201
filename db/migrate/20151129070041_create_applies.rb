@@ -4,6 +4,12 @@ class CreateApplies < ActiveRecord::Migration
    		
    		t.integer :user_id
     	t.integer :post_id
+    	t.boolean :success, default: false
+    	t.string :users
+    	t.string :user_deposit
+      t.string :am_pm
+      t.string :email
+      t.string :mobile
 
 
       t.timestamps null: false

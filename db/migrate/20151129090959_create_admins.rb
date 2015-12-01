@@ -6,11 +6,7 @@ class CreateAdmins < ActiveRecord::Migration
 
     	t.text :intro_text
     	t.text :intro_img
-    	t.text :class_1
-    	t.text :class_2
-    	t.text :class_3
-    	t.text :class_4
-    	t.text :class_5
+    	t.text :class_text
 
       t.timestamps null: false
     end

@@ -3,7 +3,7 @@
     <!--intro-->
     <div class="row">
         <div class="col-sm-12">
-            <h2 class="page-header darkgray">신청하기 <small>%성인 클래스%</small></h2>
+          <h2 class="page-header darkgray">신청하기<small><%= @class_name[params[:class_id].to_i] %></small></h2>
         </div>
     </div>
     <!-- /.intro -->
@@ -11,13 +11,14 @@
 
     <!-- apply form -->
     <section>
-      <%=form_tag do %>
           <!--class name-->
           <div class="container"> 
               <label class="col-sm-4 control-label-right">클래스 명</label>
               <div class="col-sm-8 control-label-left">
                   <div class="col-sm-4">
-                      <p>%클래스 명 불러오기%</p>
+                      <p>
+                        <small><%= @post.title %></small>
+                      </p>
                   </div>
               </div>
           </div>
@@ -27,17 +28,24 @@
               <label class="col-sm-4 control-label-right">클래스 날짜</label>
                   <div class="col-sm-8 control-label-left">
                       <div class="col-sm-4">
-                          <p>%클래스 날짜 불러오기%</p>
+                          <p>
+                            <% @post.date.each do |d| %>
+                              <%= d %>
+                            <% end %>
+                          </p>
                       </div>
                 </div>
           </div>
           <!--/.class time-->
+
+          <%= bootstrap_form_for(@apply, url: {action: "create_apply"}, method: "post") do |f| %>
           <!--class time-->
           <div class="container"> 
               <label class="col-sm-4 control-label-right">강의시간</label>
                   <div class="col-sm-4 control-label-left">
                       <div>
-                          <p><input type="radio" name="time" value="오전" checked>오전<input type="radio" name="time" value="오후">오후</p>
+                          <%= f.radio_button :am_pm, "am", label:"오전", :checked => true %>
+                          <%= f.radio_button :am_pm, "pm", label:"오후" %>
                       </div>
                   </div>
           </div>
@@ -50,7 +58,7 @@
                   </label>
                       <div id="stu_wrap">
                           <div class="col-sm-2">
-                              <input type="text" class="form-control name-input" id="name-1" type="text" name="name_1" required placeholder="사용자이름." value="%기존이름 불러오기%">
+                              <input type="text" class="form-control name-input" id="name-1" type="text" name="name_1" required value="<% unless current_user.nil? %><%= current_user.name %><% end %>">
                           </div>
                       </div>
               </div>
@@ -64,7 +72,7 @@
           <div class="container">
               <label class="col-sm-4 control-label-right">입금자 이름</label>
                   <div class="col-sm-2">
-                      <input type="text" class="form-control" value="%기존이름 불러오기%">
+                      <input name="user_deposit" type="text" class="form-control" value="<% unless current_user.nil? %><%= current_user.name %><% end %>">
                   </div>
           </div>
           <!--/.payer name-->
@@ -73,7 +81,7 @@
           <div class="container">    
               <label class="col-sm-4 control-label-right">연락처</label>
                   <div class="col-sm-2">
-                      <input type="text" class="form-control" value="%기존 연락처 불러오기%">
+                      <input name="mobile" type="text" class="form-control" value="<% unless current_user.nil? %><%= current_user.mobile %><% end %>">
                   </div>
           </div>
           <!--/.phone number-->
@@ -82,20 +90,19 @@
           <div class="container">    
                 <label class="col-sm-4 control-label-right">이메일</label>
                 <div class="col-sm-3">
-                    <input type="text" class="form-control" value="%기존 이메일 불러오기%">
+                    <input name="email" type="text" class="form-control" value="<% unless current_user.nil? %><%= current_user.email %><% end %>">
                 </div>
           </div>
           <!--/.email address-->
           <br/><br/>
           <!--button-->  
-          <form>
-              <div class="container">
-                  <label class="col-sm-4"></label>
-                  <div class="col-sm-4 control-label-left"> 
-                      <a class="btn btn-default">뒤로가기</a> <a href="/classes/completion" class="btn btn-red-2">신청완료</a>
-                  </div>
-              </div>
-          </form>
+          
+          <div class="container">
+              <label class="col-sm-4"></label>
+              <div class="col-sm-4 control-label-left"> 
+                  <a class="btn btn-default">뒤로가기</a> <%= f.submit "신청하기", class:"btn btn-red-2" %>
+          </div>
+
           <!--/.button-->
         </div>
       <%end%>

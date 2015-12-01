@@ -7,24 +7,16 @@
         </div>
     </div>
     <!-- /.intro -->
-    <div class="dropdown">
-        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">글 카테고리<span class="caret"></span></button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="#">공지사항</a></li>
-                <li><a href="#">성인 정규 클래스</a></li>
-                <li><a href="#">성인 원데이 클래스</a></li>
-                <li><a href="#">요리 책방 꼬르륵</a></li>
-                <li><a href="#">주니어 클래스</a></li>
-                <li><a href="#">PRIVATE CLASS</a></li>
-                <li><a href="#">정 in the Garden</a></li>
-              </ul>
-    </div>
+    <%= bootstrap_form_tag url: '/admin/video_update', method: 'post' do |f| %>
+    <%= f.select :class_state, options_for_select([["공지사항", 0], ["성인 정규 클래스", 1], ["성인 원데이 클래스", 2], ["요리 책방 꼬르륵", 3], ["주니어 클래스", 4], ["Private 클래스", 5], ["정인더가든", 6]]), label:"카테고리" %>
+
     <div>
-    <input type="file" style="padding-top: 20px;padding-bottom:20px">
+    <%= f.file_field :video, label: "비디오" %>
           <div class="col-sm-12 control-label-center">
-              <a class="btn btn-default" href="">적용</a>
-              <a class="btn btn-default" href="">뒤로가기</a>
+              <%= f.submit %>
+              <a class="btn btn-default" href="/">돌아가기</a>
           </div>
     </div>
+    <% end %>
 </div>
 <!--/.container-->

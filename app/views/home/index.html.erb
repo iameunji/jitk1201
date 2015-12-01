@@ -6,10 +6,10 @@
                     <div class="row home-search-wrap">
                         <div class="col-sm-4"></div>
                         <div class=" col-sm-4 control-label-center">
-                        <h3><a href="/jung/class2" style="color:white">원데이 클래스가 등록되었습니다.</a><h3><br/>
+                       
                         <!--원데이 클래스 등록시에만 보여줘야 합니다-->
                             <span class="input-group-btn">
-                                <a class="btn btn-lg btn-home" href="#">클래스 신청하기</a>
+                               <a class="btn btn-lg btn-home" href="/classes/#{Admin.first.video_class}/posts">클래스 신청하기</a>
                                 <!--메인 동영상 관리 페이지에서 드롭다운으로 카테고리 선택하면 링크 바뀌게 해야합니다-->
                             </span>
                         </div>
@@ -26,75 +26,46 @@
         <div>
             <h4 class="darkgray"><small>*지난 클래스 더보기</small></h4>
         </div>
-        <!--for admin-->
-        <div class="control-label-right">
-            <a href="/articles/new" class="btn btn-default">클래스 글쓰기</a><br/>
-            <p>지난 클래스 대표사진 권장 사이즈는 360px*250px 입니다</p>
-        </div>
-        <br/>
-        <!--/.for admin-->
+
+        <% unless current_user.nil? %>
+            <% if current_user.admin==true %>
+                <!--for admin-->
+                <div class="control-label-right">
+                    <a href="/articles/new" class="btn btn-default">클래스 글쓰기</a><br/>
+                    <p>지난 클래스 대표사진 권장 사이즈는 360px*250px 입니다</p>
+                </div>
+                <br/>
+                <!--/.for admin-->
+            <% end %>
+        <% end %>
             <!--Content BOX-->
             <div class="row">
+            
+                <% @posts.each do |p| %>
                 <!--content1-->
                 <div class="col-md-4 portfolio-item">
-                    <%= link_to '/jung/classplusold' do %>
+                    <%= link_to "/classes/#{ p.class_state }/posts/#{ p.id }" do %>
                       <%= image_tag "class1.jpg", :width => "100%", :height =>"250px", :class =>"img-hover"%>
                     <% end %>
                     <h3>
-                        <a href="/jung/class1">지난 클래스1</a>
+                        <a href="/classes/#{ p.class_state }/posts/#{ p.id }"><%= p.title %></a>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                        <div>
-                            <a class="btn btn-sm btn-default" href="#">자세히 보기</a><br/>
-                        </div>
+                    <p><%= p.short %></p>
+
+                    <% unless current_user.nil? %>
+                        <% if current_user.admin==true %>
                         <!--for admin-->
                         <div class="btn-group" role="group">
                             <a class="btn btn-default">수정하기</a>
                             <a class="btn btn-default">삭제하기</a>
                         </div>
                         <!--/.for admin-->
+                        <% end %>
+                    <% end %>
                 </div>
                 <!--/.content1-->
-                <!--content2-->
-                <div class="col-md-4 portfolio-item">
-                    <%= link_to '/jung/class2' do %>
-                        <%= image_tag "class2.jpg", :width => "100%", :height =>"250px", :class =>"img-hover"%>
-                    <% end %>
-                    <h3>
-                        <a href="/jung/class2">지난 클래스2</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                        <div>
-                            <a class="btn btn-sm btn-default" href="#">자세히 보기</a><br/>
-                        </div>
-                        <!--for admin-->
-                        <div class="btn-group" role="group">
-                            <a class="btn btn-default">수정하기</a>
-                            <a class="btn btn-default">삭제하기</a>
-                        </div>
-                        <!--/.for admin-->
-                </div>
-                <!--/.content2-->
-                <!--content3-->
-                <div class="col-md-4 portfolio-item">
-                    <%= link_to '/jung/classplusold' do %>
-                        <%= image_tag "class3.jpg", :width => "100%", :height =>"250px", :class =>"img-hover"%>
-                    <% end %>
-                    <h3>
-                        <a href="/jung/class3">지난 클래스3</a>
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                        <div>
-                            <a class="btn btn-sm btn-default" href="#">자세히 보기</a><br/>
-                        </div>
-                        <!--for admin-->
-                        <div class="btn-group" role="group">
-                            <a class="btn btn-default">수정하기</a>
-                            <a class="btn btn-default">삭제하기</a>
-                        </div>
-                        <!--/.for admin-->
-                 </div>
-                 <!--/.content3-->
+                <% end %>
+                
             </div>
             <!-- /.Content BOX -->
     </section>

@@ -3,7 +3,7 @@
     <!-- Portfolio Item Heading -->
     <div class="row">
         <div class="col-sm-12">
-            <h2 class="page-header darkgray">신청한 클래스 <small>my page</small></h2>
+            <h2 class="page-header darkgray">신청한 클래스 <small>MY CLASSES</small></h2>
         </div>
     </div>
     <!-- /.row -->
@@ -11,42 +11,19 @@
      <section>
     <!-- Projects Row -->
         <div class="row">
-            <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/500x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/500x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/500x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-             <div class="col-md-3 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/500x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
+
+        <% @applies = Apply.where(:user_id => current_user.id ) %>
+            <% @applies.each do |a| %>
+                <div class="col-md-3 portfolio-item">
+                    <a href="/classes/<%=a.post.class_state%>/posts/<%=a.post.id%>">
+                        <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+                    </a>
+                    <h3>
+                        <a href="/classes/<%=a.post.class_state%>/posts/<%=a.post.id%>"><%= a.post.title %></a>
+                    </h3>
+                    <p><%= a.post.short %></p>
+                </div>
+            <% end %>
         </div>
         <!-- /.row -->
     </section>
@@ -54,7 +31,7 @@
     <!-- Portfolio Item Heading -->
     <div class="row">
         <div class="col-sm-12">
-            <h2 class="page-header darkgray">내정보 수정하기 <small>my page</small></h2>
+            <h2 class="page-header darkgray">내정보 수정하기 <small>MY PAGE</small></h2>
         </div>
     </div>
     

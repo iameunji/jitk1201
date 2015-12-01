@@ -3,19 +3,8 @@
     <!--intro-->
     <div class="row"><br/>
         <div class="col-sm-12">
-            <% if params[:class_id].to_i == 1 %>
-                <h3 class="darkgray">성인 정규 클래스<br><small><%= @admin.class_1 %></small></h3>
-            <% elsif params[:class_id].to_i==2 %>
-                 <h3 class="darkgray">성인 원데이 클래스<br><small><%= @admin.class_2 %></small></h3>
-            <% elsif params[:class_id].to_i==3 %>
-                <h3 class="darkgray">요리책방 꼬르륵<br><small><%= @admin.class_3 %></small></h3>
-            <% elsif params[:class_id].to_i==4 %>
-                <h3 class="darkgray">주니어 클래스<br><small><%= @admin.class_4 %></small></h3>
-            <% elsif params[:class_id].to_i==5 %>
-                <h3 class="darkgray">PRIVATE CLASS<br><small><%= @admin.class_5 %></small></h3>
-            <% elsif params[:class_id].to_i==6 %>
-
-            <% end %>
+            <h3 class="darkgray"><%= @class_name[params[:class_id].to_i] %><br><small><%= @admin.class_text[params[:class_id].to_i-1] %></small></h3>
+            
         </div>
     </div>
     <!-- /.intro -->
@@ -23,19 +12,7 @@
 
     <div class="row">
         <div class="col-sm-12">            
-            <% if params[:class_id].to_i==1 %>
-                <h4 class="page-header darkgray">*현재 클래스<small>성인 정규 클래스</small></h4>
-            <% elsif params[:class_id].to_i==2 %>
-                <h4 class="page-header darkgray">*현재 클래스<small>성인 원데이 클래스</small></h4>
-            <% elsif params[:class_id].to_i==3 %>
-                <h4 class="page-header darkgray">*현재 클래스<small>요리책방 꼬르륵</small></h4>
-            <% elsif params[:class_id].to_i==4 %>
-                <h4 class="page-header darkgray">*현재 클래스<small>주니어 클래스</small></h4>
-            <% elsif params[:class_id].to_i==5 %>
-                <h4 class="page-header darkgray">*현재 클래스<small>PRIVATE CLASS</small></h4>
-            <% elsif params[:class_id].to_i==6 %>
-                <h2 class="page-header darkgray">정 In The Garden<small>정 in the Kitchen</small></h2>
-            <% end %>
+                <h4 class="page-header darkgray">*현재 클래스<small><%= @class_name[params[:class_id].to_i] %></small></h4>
         </div>
     </div>
 
@@ -58,8 +35,8 @@
     <!-- current class -->
 
     <div class="row">
-    <% unless @posts.where(:class_state => params[:class_id]).nil? %>
     <% p = @posts.where(:class_state => params[:class_id]).first %>
+    <% unless p.nil? %>
         <!--current class image-->
         <section>
             <div class="col-sm-7 portfolio-item">
@@ -72,21 +49,32 @@
         <!--current class wording-->      
         <section>
             <div class="col-sm-5 portfolio-item">
-                <h3><%= p.title %></h3>
+                <a href="/classes/<%= p.class_state %>/posts/<%= p.id %>"><h3><%= p.title %></h3></a>
                 <h4><%= p.short %></h4>
                 <br/>
-                <div>
-                    <a class="btn btn-sm btn-default" href="/classes/<%= p.class_state %>/posts/<%= p.id %>">자세히 보기</a><br/>
-                </div>
-                <div class="control-label-right">
-                    <a class="btn btn-red-2" href="/classes/apply">신청하기</a>
-                </div>
-                <!--for admin-->
-                <div class="btn-group control-label-right" role="group">
-                    <a class="btn btn-default">수정하기</a>
-                    <a class="btn btn-default">삭제하기</a>
-                </div>
-                <!--/.for admin-->
+
+                <% unless current_user.nil? %>
+                    <% if current_user.admin==true %>
+
+                        <div class="control-label-right">
+                            <a class="btn btn-default" style="margin: 2px" href="/admin/currentapply/<%= p.id %>">신청자 목록</a>
+                        </div>
+
+                    <!--for admin-->
+                        <div class="control-label-right">
+                            <a class="btn btn-default" style="margin: 2px">수정하기</a>
+                            <a class="btn btn-default" style="margin: 2px">삭제하기</a>
+                        </div>
+                        <!--/.for admin-->
+                    <% else %>
+
+                    <div class="control-label-right">
+                        <a class="btn btn-red-2" href="/classes/<%= p.class_state %>/apply/<%= p.id %>" style="margin: 2px">신청하기</a>
+                    </div>
+
+                    <% end %>
+                <% end %>
+                
             </div>
         <% end %>
         </section>
@@ -102,11 +90,16 @@
             <h4 class="darkgray">*지난 클래스 더보기</h4>
             <hr/>
         </div>
-        <!--for admin-->
-        <div class="control-label-right">
-            <a href="/articles/new" class="btn btn-default">클래스 글쓰기</a><br/>
-            <p>지난 클래스 대표사진 권장 사이즈는 360px*250px 입니다</p>
-        </div>
+
+        <% unless current_user.nil? %>
+            <% if current_user.admin==true %>
+<!--for admin-->
+            <div class="control-label-right">
+                <a href="/articles/new" class="btn btn-default">클래스 글쓰기</a><br/>
+                <p>지난 클래스 대표사진 권장 사이즈는 360px*250px 입니다</p>
+            </div>
+            <% end %>
+        <% end %>
         <br/>
         <!--/.for admin-->
         <!--Content BOX-->

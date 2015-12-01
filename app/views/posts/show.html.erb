@@ -3,29 +3,21 @@
     <!-- intro -->
     <div class="row">
         <div class="col-sm-12">
-            <h3 class="page-header darkgray">자세히보기 (댓글 없음 : notice, 현재 클래스)
-            <% if params[:class_id].to_i==1 %>
-                <small>성인 정규 클래스</small>
-            <% elsif params[:class_id].to_i==2 %>
-                <small>성인 원데이 클래스</small>
-            <% elsif params[:class_id].to_i==3 %>
-                <small>요리책방 꼬르륵</small>
-            <% elsif params[:class_id].to_i==4 %>
-                <small>주니어 클래스</small>
-            <% elsif params[:class_id].to_i==5 %>
-                <small>PRIVATE CLASS</small>
-            <% elsif params[:class_id].to_i==6 %>
-                <small>정 in the Kitchen</small>
-            <% end %>
-
+            <h3 class="page-header darkgray">자세히보기
+                <small><%= @class_name[params[:class_id].to_i] %></small>
             </h3>
         </div>
     </div>
-    <!-- /.intro -->
-    <div class="control-label-right">
-        <a href="/jung/cawrite" class="btn btn-default">수정하기</a>
-    </div>
-    <!-- /.control-label-right-->
+
+    <% unless current_user.nil? %>
+      <% if current_user.admin==true %>
+        <!-- /.intro -->
+        <div class="control-label-right">
+            <a href="/jung/cawrite" class="btn btn-default">수정하기</a>
+        </div>
+        <!-- /.control-label-right-->
+      <% end %>
+    <% end %>
   <br/><br/>
   <!-- class contents -->
   <div class="row">

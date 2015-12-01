@@ -3,7 +3,7 @@
     <!-- intro -->
     <div class="row">
         <div class="col-sm-12">
-            <h2 class="page-header darkgray">신청완료 <small></small></h2>
+            <h2 class="page-header darkgray">신청완료<small></small></h2>
         </div>
     </div>
     <!-- /.intro -->
@@ -11,13 +11,13 @@
 	<!--Content -->
     <div class="row">
         <div class="col-sm-8 col-sm-offset-4 control-container-left">
-            <h4>ooo님 o월 일 시 클래스 예약되었습니다.</h4><br/>
+            <h4><%= @res.users[0] %>님, '<%= @res.post.title %>' 클래스가 예약되었습니다.</h4><br/>
             <p>아래 계좌로 수업료를 <strong>3일</strong>이내 입금하셔야 신청이 완료됩니다.
             <p><strong>계좌 국민 818101-01-327159 성유정(정인더키친)</strong></p>
             <p>또한, 반드시 <a class= "redword" href="/home/policy">환불 및 취소 정책</a>을 확인해 주시기 바랍니다. </p>
         </div>
         <div class="col-sm-12 control-label-center"><br/>
-            <a class="btn btn-default" href="/jung/mypage">확인</a>
+            <a class="btn btn-default" href="/">확인</a>
         </div>
     </div>
     <!--/.Content-->
