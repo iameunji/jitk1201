@@ -52,7 +52,6 @@
                 <a href="/classes/<%= p.class_state %>/posts/<%= p.id %>"><h3><%= p.title %></h3></a>
                 <h4><%= p.short %></h4>
                 <br/>
-                <a class="btn btn-red-2" href="/classes/<%=p.class_state%>/apply/<%= p.id%>">신청하기</a><br>
 
                 <% unless current_user.nil? %>
                     <% if current_user.admin==true %>
@@ -68,7 +67,11 @@
                         </div>
                         <!--/.for admin-->
                     <% else %>
-                    
+
+                    <div class="control-label-right">
+                        <a class="btn btn-red-2" href="/classes/<%= p.class_state %>/apply/<%= p.id %>" style="margin: 2px">신청하기</a>
+                    </div>
+
                     <% end %>
                 <% end %>
                 
