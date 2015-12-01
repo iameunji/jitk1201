@@ -32,7 +32,7 @@ class PostsController < ApplicationController
 	    	arr_date = date.split(', ')
 	    end
 	    
-	    @post.date=arr_date
+	    @post.date=arr_date	
 
 	    if @post.save
 	    	if @post.class_state==0 

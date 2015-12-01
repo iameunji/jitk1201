@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'carrierwave'
+gem 'fog'
+
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 

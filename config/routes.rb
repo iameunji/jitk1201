@@ -9,10 +9,14 @@ Rails.application.routes.draw do
   get 'home/calendar'
   get 'home/policy'
 
-  resources :admin, only: [:index] do
+  post '/admin/video_update', to: 'admin#video_update'
+
+ resources :admin, only: [:index] do
     collection do
-      get 'manage','currentapply','userlist','oneday','video','cmodify'
+      get 'currentapply/:id' => 'admin#currentapply'
+      get 'manage','userlist','oneday','video','cmodify'
       post 'update_oneday'
+      post 'confirm_apply', 'cancel_apply'
     end
   end
 
@@ -20,7 +24,9 @@ Rails.application.routes.draw do
     resources :posts
 
     collection do 
-      get 'apply', 'completion'
+      get ':class_id/apply/:id' => 'classes#apply'
+      get 'completion/:id' => 'classes#completion'
+      post 'create_apply/:id' => 'classes#create_apply'
     end
   end
 

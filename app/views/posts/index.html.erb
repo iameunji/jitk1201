@@ -21,9 +21,9 @@
         <% if current_user.admin == true %>
             <div class="control-label-right">
                 <% if params[:class_id].to_i == 6%>
-                    <a class="btn btn-default" href="/articles/new">정 in the Garden 글쓰기</a>
+                    <a class="btn btn-default" href="/posts/new">정 in the Garden 글쓰기</a>
                 <% else %>
-                    <a class="btn btn-default" href="/articles/new">클래스 글쓰기</a>
+                    <a class="btn btn-default" href="/posts/new">클래스 글쓰기</a>
                 <% end %>
                 <p>현재 클래스 대표사진 권장 사이즈는 640px*400px 입니다</p>
             </div>
@@ -52,6 +52,7 @@
                 <a href="/classes/<%= p.class_state %>/posts/<%= p.id %>"><h3><%= p.title %></h3></a>
                 <h4><%= p.short %></h4>
                 <br/>
+                <a class="btn btn-red-2" href="/classes/<%=p.class_state%>/apply/<%= p.id%>">신청하기</a><br>
 
                 <% unless current_user.nil? %>
                     <% if current_user.admin==true %>
@@ -95,7 +96,7 @@
             <% if current_user.admin==true %>
 <!--for admin-->
             <div class="control-label-right">
-                <a href="/articles/new" class="btn btn-default">클래스 글쓰기</a><br/>
+                <a href="/posts/new" class="btn btn-default">클래스 글쓰기</a><br/>
                 <p>지난 클래스 대표사진 권장 사이즈는 360px*250px 입니다</p>
             </div>
             <% end %>
@@ -118,12 +119,17 @@
                         <p><% p.short %></p>
                         <div>
                             <a class="btn btn-sm btn-default" href="/classes/<%= p.class_state %>/posts/<%= p.id %>">자세히 보기</a><br/>
+                            <a class="btn btn-red-2" href="/classes/<%=@post.class_state%>/apply/<%= p.id%>">신청하기</a><br>
                         </div>
                         <!--for admin-->
-                        <div class="btn-group" role="group">
-                            <a class="btn btn-default">수정하기</a>
-                            <a class="btn btn-default">삭제하기</a>
-                        </div>
+                        <% unless current_user.nil? %>
+                            <% if current_user.admin = true %>
+                                <div class="btn-group" role="group">
+                                    <a class="btn btn-default">수정하기</a>
+                                    <a class="btn btn-default">삭제하기</a>
+                                </div>
+                            <% end %>
+                        <% end %>
                         <!--/.for admin-->
                     </div>
                     <!--/.content1-->
