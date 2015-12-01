@@ -12,7 +12,17 @@
 
     <div class="row">
         <div class="col-sm-12">            
-                <h4 class="page-header darkgray">*현재 클래스<small><%= @class_name[params[:class_id].to_i] %></small></h4>
+                <h4 class="page-header dark gray">* 현재 클래스<small>&nbsp<%= @class_name[params[:class_id].to_i] %></small>
+<%= link_to 'https://www.youtube.com/channel/UCLD470iMbLCx_r_VksHQzIg' do %>
+                            <%= image_tag "youtube.png", :class =>"small-square ing-hover"%>
+                        <% end %>
+                        <%= link_to 'https://instagram.com/jung_kitchen' do %>
+                            <%= image_tag "instagram.png", :class =>"small-square ing-hover"%>
+                        <% end %>
+                        <%= link_to 'http://blog.naver.com/corluck' do %>
+                            <%= image_tag "naver.png", :class =>"small-square ing-hover"%>
+                        <% end %>
+                </h4>
         </div>
     </div>
 
