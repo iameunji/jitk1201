@@ -16,7 +16,7 @@
             <% @applies.each do |a| %>
                 <div class="col-md-3 portfolio-item">
                     <a href="/classes/<%=a.post.class_state%>/posts/<%=a.post.id%>">
-                        <img class="img-responsive" src="http://placehold.it/500x300" alt="">
+                        <img class="img-responsive" src="<%= a.post.img %>" alt="">
                     </a>
                     <h3>
                         <a href="/classes/<%=a.post.class_state%>/posts/<%=a.post.id%>"><%= a.post.title %></a>

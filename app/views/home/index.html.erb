@@ -45,7 +45,7 @@
                 <!--content1-->
                 <div class="col-md-4 portfolio-item">
                     <%= link_to "/classes/#{ p.class_state }/posts/#{ p.id }" do %>
-                      <%= image_tag "class1.jpg", :width => "100%", :height =>"250px", :class =>"img-hover"%>
+                      <%= image_tag "#{p.img}", :width => "100%", :height =>"250px", :class =>"img-hover"%>
                     <% end %>
                     <h3>
                         <a href="/classes/#{ p.class_state }/posts/#{ p.id }"><%= p.title %></a>
