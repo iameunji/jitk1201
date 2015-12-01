@@ -31,7 +31,7 @@ class ClassesController < ApplicationController
   	end
 
   	apply.user_deposit = params[:user_deposit]
-  	apply.am_pm = params[:apply][:am_pm]
+  	#apply.am_pm = params[:apply][:am_pm]
   	apply.mobile = params[:mobile]
   	apply.email = params[:email]
   	
