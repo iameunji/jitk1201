@@ -32,6 +32,17 @@
 		            title  : '<%= p.title %>',
 		            start  : '<%= d %>',
 		            url : '/classes/<%= p.class_state %>/posts/<%= p.id %>',
+		            <% if p.class_state == 1 %>
+		            color: 'green',
+		            <% elsif p.class_state == 2 %>
+		            color: 'green',
+		            <% elsif p.class_state == 3 %>
+		            color: 'blue',
+		            <% elsif p.class_state == 4 %>
+		            color: 'blue',
+		            <% elsif %>
+		            color: 'bule',
+		            <% end %>
 		            allDay : true
 		        },
 		        	<% end %>
