@@ -58386,3 +58386,11 @@ Started GET "/assets/instagram-b41942201c5a8b79b9e6617fc86edbdccbc8edfb26c52ee5d
 
 
 Started GET "/assets/main-a5f1475bfc693f92d1368bc63284ca3f4c04f1f7d157ad1a55a49b4f2d503b54.mp4" for ::1 at 2015-12-01 21:11:04 +0900
+
+
+Started GET "/" for ::1 at 2015-12-01 21:12:47 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.2ms)
+  [1m[36mAdmin Load (0.1ms)[0m  [1mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+Completed 200 OK in 209ms (Views: 207.7ms | ActiveRecord: 0.2ms)
