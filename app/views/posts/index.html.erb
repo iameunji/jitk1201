@@ -35,7 +35,7 @@
     <!-- current class -->
 
     <div class="row">
-    <% p = @posts.where(:class_state => params[:class_id]).first %>
+    <% p = @posts.where(:class_state => params[:class_id], :time_state => 1).first %>
     <% unless p.nil? %>
         <!--current class image-->
         <section>
@@ -105,7 +105,7 @@
         <!--Content BOX-->
         <div class="row">
             <% cnt=0 %>
-            <% @posts.where(:class_state => params[:class_id]).each do |p| %>
+            <% @posts.where(:class_state => params[:class_id], :time_state => 0).each do |p| %>
             <!--content1-->
                 <% if cnt!=0 %>
                     <div class="col-md-4 portfolio-item">
