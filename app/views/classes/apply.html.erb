@@ -115,13 +115,17 @@
 //<!--로그인 하지 않았을 때 보여주는 창.--
 <% if current_user.nil?%>
   $(document).ready(function(){
-    
-    alert('아직 회원가입을 하지 않으셨나요? 가입 후 신청하시면 클래스 리워드 프로그램의 일환으로 10회 수강 후 무료 수강의 기회를 얻으실 수 있습니다.');
-    // var returnValue = ("");
-    // document.write(returnValue);
+     if( confirm("아직 회원가입을 하지 않으셨나요? 가입 후 신청하시면 클래스 리워드 프로그램의 일환으로 10회 수강 후 무료 수강의 기회를 얻으실 수 있습니다."))
+     {
+        location.href="/users/sign_up";
+     }
+     else
+     {
+     
+     }
   });
   <% end %>
-  //<!--/.창 끝-->
+  //<!—/.창 끝—>
 
 
   $(document).ready(function() {
