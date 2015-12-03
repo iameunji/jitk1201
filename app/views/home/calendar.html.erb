@@ -33,15 +33,35 @@
 		            start  : '<%= d %>',
 		            url : '/classes/<%= p.class_state %>/posts/<%= p.id %>',
 		            <% if p.class_state == 1 %>
-		            color: 'green',
+		            	<% if p.am_pm == 'am' %>
+		            		color: '#c55454',
+		            	<% else %>
+		            		color: '#833535',
+		            	<% end %>
 		            <% elsif p.class_state == 2 %>
-		            color: 'green',
+		            	<% if p.am_pm == 'am' %>
+		            		color: '#7da79b',
+		            	<% else %>
+		            		color: '#285447',
+		            	<% end %>
 		            <% elsif p.class_state == 3 %>
-		            color: 'blue',
+		            	<% if p.am_pm == 'am' %>
+		            		color: '#c17e00',
+		            	<% else %>
+		            		color: '#815400',
+		            	<% end %>
 		            <% elsif p.class_state == 4 %>
-		            color: 'blue',
-		            <% elsif %>
-		            color: 'bule',
+		            	<% if p.am_pm == 'am' %>
+		            		color: '#a547d0',
+		            	<% else %>
+		            		color: "#611185",
+		            	<% end %>
+		            <% elsif p.class_state == 5 %>
+		            	<% if p.am_pm == 'am' %>
+		            		color: '#47aad0',
+		            	<% else %>
+		            		color: '#1f6d8b',
+		            	<% end %>
 		            <% end %>
 		            allDay : true
 		        },
