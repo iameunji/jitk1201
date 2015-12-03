@@ -73,34 +73,26 @@
                         <a href="/classes/<%= p.class_state %>/posts/<%= p.id %>"><h3><%= p.title %></h3></a>
                         <h4><%= p.short.html_safe %></h4>
                         <br/>
-
-                        <% unless current_user.nil? %>
-                            <% if current_user.admin==true %>
-
+                        <div class="control-label-right">
+                            <a class="btn btn-default" href="/classes/<%= p.class_state %>/posts/<%= p.id %>">자세히 보기 </a>
+                            <a class="btn btn-red-2" href="/classes/<%= p.class_state %>/apply/<%= p.id %>" style="margin: 2px">신청하기</a>
+                        </div>
+                        <br/> 
+                        <% unless current_user.nil? %>                        
+                        <% if current_user.admin==true %>
                                 <div class="control-label-right">
                                     <a class="btn btn-default" style="margin: 2px" href="/admin/currentapply/<%= p.id %>">신청자 목록</a>
                                 </div>
-
-                            <!--for admin-->
                                 <div class="control-label-right">
                                     <a class="btn btn-default" style="margin: 2px" href="/classes/<%= p.class_state %>/posts/<%= p.id %>/edit">수정하기</a>
                                     <a class="btn btn-default" style="margin: 2px" href="/classes/<%= p.class_state %>/posts/<%= p.id %>" data-method="delete">삭제하기</a>
                                 </div>
-                                <!--/.for admin-->
-                            <% else %>
-
-                            <div class="control-label-right">
-                                <a class="btn btn-red-2" href="/classes/<%= p.class_state %>/apply/<%= p.id %>" style="margin: 2px">신청하기</a>
-                            </div>
-
                             <% end %>
-                        <% end %>
-                    <% end %>
-                        
+                        <% end %>        
+                    <% end %>      
                     </div>
                 <% end %>
                 </section>
-
                 <!--/.current class wording-->
             </div>
             <!--/.current class-->
